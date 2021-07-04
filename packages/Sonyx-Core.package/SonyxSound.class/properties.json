@@ -1,0 +1,22 @@
+{
+	"category" : "Sonyx-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"volume",
+		"squeakSound",
+		"pitch",
+		"balance",
+		"synchronous",
+		"semaphore",
+		"duration",
+		"isPlaying",
+		"sonyxSqueakSound" ],
+	"name" : "SonyxSound",
+	"pools" : [
+		 ],
+	"super" : "AbstractSonyxSound",
+	"type" : "normal" }

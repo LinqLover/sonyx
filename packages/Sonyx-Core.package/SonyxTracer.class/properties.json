@@ -1,0 +1,16 @@
+{
+	"category" : "Sonyx-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current",
+		"LastError" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isActive",
+		"probes" ],
+	"name" : "SonyxTracer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

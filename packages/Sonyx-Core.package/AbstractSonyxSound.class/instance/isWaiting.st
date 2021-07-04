@@ -1,0 +1,4 @@
+testing
+isWaiting
+
+	^ self subclassResponsibility

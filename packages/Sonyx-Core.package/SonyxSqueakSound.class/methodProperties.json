@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"balance" : "ct 6/27/2021 15:12",
+		"balance:" : "ct 6/27/2021 01:41",
+		"copySounds" : "ct 6/27/2021 01:11",
+		"doControl" : "ct 6/27/2021 16:05",
+		"duration" : "ct 6/27/2021 01:20",
+		"duration:" : "ct 6/27/2021 20:34",
+		"mixSampleCount:into:startingAt:leftVol:rightVol:" : "ct 7/3/2021 21:28",
+		"postCopy" : "ct 6/27/2021 00:57",
+		"progress" : "ct 6/27/2021 01:21",
+		"reset" : "ct 6/27/2021 01:10",
+		"samplesRemaining" : "ct 6/27/2021 01:10",
+		"sonyxSound:squeakSound:" : "ct 6/27/2021 01:12",
+		"sounds" : "ct 6/27/2021 01:15",
+		"stopGracefully" : "ct 6/27/2021 01:10",
+		"synchronous" : "ct 6/27/2021 15:58",
+		"synchronous:" : "ct 6/27/2021 15:58",
+		"updateProperties" : "ct 6/27/2021 20:35" } }

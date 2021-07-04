@@ -1,0 +1,4 @@
+accessing
+resetServer
+
+	Current := nil

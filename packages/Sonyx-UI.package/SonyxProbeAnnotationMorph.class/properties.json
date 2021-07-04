@@ -1,0 +1,15 @@
+{
+	"category" : "Sonyx-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expressionFieldMorph",
+		"widgetsMorph" ],
+	"name" : "SonyxProbeAnnotationMorph",
+	"pools" : [
+		 ],
+	"super" : "BPAnnotationMorph",
+	"type" : "normal" }

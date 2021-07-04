@@ -1,0 +1,4 @@
+testing
+isPlaying
+
+	^ self subclassResponsibility

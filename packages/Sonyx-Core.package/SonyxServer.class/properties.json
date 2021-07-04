@@ -1,0 +1,15 @@
+{
+	"category" : "Sonyx-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current",
+		"IsActive" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mutex" ],
+	"name" : "SonyxServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

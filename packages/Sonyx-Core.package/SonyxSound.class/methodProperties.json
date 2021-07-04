@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"balance" : "ct 6/27/2021 01:40",
+		"balance:" : "ct 6/27/2021 01:40",
+		"duration" : "ct 6/27/2021 20:32",
+		"duration:" : "ct 6/27/2021 20:32",
+		"initialize" : "ct 7/3/2021 21:25",
+		"isPlaying" : "ct 7/3/2021 21:25",
+		"isPlaying:" : "ct 7/3/2021 22:16",
+		"isWaiting" : "ct 6/27/2021 15:42",
+		"newSqueakSound" : "ct 7/3/2021 22:02",
+		"pitch" : "ct 6/26/2021 21:39",
+		"pitch:" : "ct 6/26/2021 21:39",
+		"squeakSound" : "ct 6/26/2021 21:26",
+		"squeakSound:" : "ct 6/27/2021 02:13",
+		"stopWaitingIf:" : "ct 6/27/2021 16:50",
+		"synchronous" : "ct 6/27/2021 15:27",
+		"synchronous:" : "ct 6/27/2021 15:27",
+		"valueOf:for:" : "ct 6/27/2021 01:21",
+		"volume" : "ct 6/26/2021 21:26",
+		"volume:" : "ct 6/26/2021 21:26",
+		"waitDuring:" : "ct 6/27/2021 16:20" } }

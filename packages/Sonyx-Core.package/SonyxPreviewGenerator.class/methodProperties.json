@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"makePreviewFor:" : "ct 7/4/2021 00:24" },
+	"instance" : {
+		"basicMakePreview" : "ct 7/4/2021 03:20",
+		"bindingOf:" : "ct 7/4/2021 03:20",
+		"expression" : "ct 7/4/2021 00:25",
+		"expression:" : "ct 7/4/2021 00:21",
+		"makePreview" : "ct 7/4/2021 00:23",
+		"newMock" : "ct 7/4/2021 03:19",
+		"wantsInteractiveErrorCorrection" : "ct 7/4/2021 00:31" } }

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activateButtonClicked" : "ct 7/3/2021 20:58",
+		"addActivationButtonMorph" : "ct 7/3/2021 20:59",
+		"addCollapseButtonMorph" : "ct 7/4/2021 19:29",
+		"addPrehearButtonMorph" : "ct 7/4/2021 19:44",
+		"adjustWidth" : "ct 6/27/2021 00:51",
+		"annotation:" : "ct 6/20/2021 15:28",
+		"collapseButtonClicked" : "ct 7/4/2021 19:47",
+		"editFieldInitialContent:onChange:onAccept:" : "ct 6/27/2021 00:35",
+		"enabled" : "ct 7/3/2021 20:59",
+		"initialize" : "ct 7/4/2021 19:46",
+		"newExpressionMorph" : "ct 6/27/2021 00:12",
+		"newLabelContainerMorph" : "ct 6/20/2021 15:24",
+		"newWidgetsMorph" : "ct 6/20/2021 15:18",
+		"noteNewOwner:" : "ct 6/27/2021 00:45",
+		"prehearButtonClicked" : "ct 7/4/2021 19:42",
+		"step" : "ct 6/27/2021 00:44",
+		"stepTime" : "ct 6/28/2021 22:43" } }

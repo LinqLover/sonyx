@@ -1,0 +1,4 @@
+testing
+isPlaying
+
+	^ currentSounds notEmpty

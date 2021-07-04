@@ -1,0 +1,4 @@
+playing
+newSqueakSound
+
+	^ self subclassResponsibility

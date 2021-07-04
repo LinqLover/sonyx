@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"aboutToStyleBlock" ],
+	"name" : "SonyxBPCodeValueModel",
+	"pools" : [
+		 ],
+	"super" : "BPStringValueModel",
+	"type" : "normal" }

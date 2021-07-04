@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"annotationTag" : "ct 6/28/2021 22:34" },
+	"instance" : {
+		"actualProbe" : "ct 7/3/2021 21:15",
+		"asMorph" : "ct 6/20/2021 15:08",
+		"at:putInformation:" : "ct 6/20/2021 15:16",
+		"defaultIsActive" : "ct 6/28/2021 23:11",
+		"enabled" : "ct 7/3/2021 20:58",
+		"expression" : "ct 6/20/2021 15:02",
+		"expression:" : "ct 7/3/2021 19:30",
+		"instrumentationCallFor:" : "ct 7/3/2021 21:34",
+		"prehear" : "ct 7/4/2021 19:42",
+		"register" : "ct 7/3/2021 19:46",
+		"server" : "ct 6/28/2021 20:49",
+		"startTag" : "ct 7/3/2021 19:49",
+		"stopTag" : "ct 6/20/2021 15:11" } }
