@@ -2,14 +2,16 @@
 	"class" : {
 		"cleanUp" : "ct 6/27/2021 16:01",
 		"current" : "ct 6/26/2021 21:35",
-		"initialize" : "ct 6/28/2021 07:14",
+		"currentOrNil" : "ct 8/18/2021 17:53",
 		"initializeServer" : "ct 6/26/2021 21:34",
-		"isActive" : "ct 6/28/2021 07:14",
-		"isActive:" : "ct 6/28/2021 07:14",
 		"resetServer" : "ct 6/27/2021 15:59" },
 	"instance" : {
-		"basicPlaySound:" : "ct 7/3/2021 21:18",
-		"basicPlaySound:andWaitFor:" : "ct 6/28/2021 22:31",
+		"assureSteadySoundService" : "ct 8/18/2021 17:49",
+		"basicPlaySound:" : "ct 8/18/2021 17:00",
+		"basicPlaySound:andWaitFor:" : "ct 8/18/2021 17:00",
+		"dropSteadySoundService" : "ct 8/18/2021 17:52",
 		"initialize" : "ct 7/3/2021 21:34",
 		"play:" : "ct 6/26/2021 21:36",
-		"play:for:" : "ct 7/4/2021 15:06" } }
+		"play:for:" : "ct 8/18/2021 17:49",
+		"release" : "ct 8/18/2021 17:52",
+		"wasActivated:" : "ct 8/18/2021 17:54" } }

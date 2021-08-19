@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 stepTimeIn: aSystemWindow
 	 
 	^ 100

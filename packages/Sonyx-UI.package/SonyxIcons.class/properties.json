@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxIcons",
+	"pools" : [
+		 ],
+	"super" : "UiIcons",
+	"type" : "normal" }

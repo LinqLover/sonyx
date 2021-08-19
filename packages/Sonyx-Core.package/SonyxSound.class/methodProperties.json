@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"squeakSoundSelectors" : "ct 7/16/2021 19:26" },
 	"instance" : {
 		"balance" : "ct 6/27/2021 01:40",
 		"balance:" : "ct 6/27/2021 01:40",
@@ -8,17 +8,17 @@
 		"duration:" : "ct 6/27/2021 20:32",
 		"initialize" : "ct 7/3/2021 21:25",
 		"isPlaying" : "ct 7/3/2021 21:25",
-		"isPlaying:" : "ct 7/3/2021 22:16",
+		"isPlaying:" : "ct 8/18/2021 16:57",
 		"isWaiting" : "ct 6/27/2021 15:42",
-		"newSqueakSound" : "ct 7/3/2021 22:02",
+		"makePrimitiveSound" : "ct 8/18/2021 16:59",
 		"pitch" : "ct 6/26/2021 21:39",
 		"pitch:" : "ct 6/26/2021 21:39",
-		"squeakSound" : "ct 6/26/2021 21:26",
-		"squeakSound:" : "ct 6/27/2021 02:13",
-		"stopWaitingIf:" : "ct 6/27/2021 16:50",
+		"squeakSound" : "ct 8/18/2021 16:56",
+		"squeakSound:" : "ct 8/18/2021 16:56",
+		"stopPlaying" : "ct 8/18/2021 16:57",
 		"synchronous" : "ct 6/27/2021 15:27",
 		"synchronous:" : "ct 6/27/2021 15:27",
 		"valueOf:for:" : "ct 6/27/2021 01:21",
 		"volume" : "ct 6/26/2021 21:26",
 		"volume:" : "ct 6/26/2021 21:26",
-		"waitDuring:" : "ct 6/27/2021 16:20" } }
+		"waitDuring:" : "ct 8/18/2021 19:25" } }

@@ -1,8 +1,8 @@
 ui
 asMorph
-	
+	 
 	| newMorph |
-	newMorph := SonyxBPAnnotationMorph new
+	newMorph := SonyxProbeAnnotationMorph new
 		annotation: self;
 		yourself.
 	self updateTextAnchorPropertiesOf: newMorph.

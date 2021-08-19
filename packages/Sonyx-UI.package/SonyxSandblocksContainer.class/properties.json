@@ -1,0 +1,15 @@
+{
+	"category" : "Sonyx-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodReference",
+		"annotationMorph" ],
+	"name" : "SonyxSandblocksContainer",
+	"pools" : [
+		 ],
+	"super" : "SBStContainer",
+	"type" : "normal" }

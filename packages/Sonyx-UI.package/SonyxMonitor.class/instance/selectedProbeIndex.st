@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - toolbuilder
 selectedProbeIndex
 	 
 	^ self probes indexOf: self selectedProbe

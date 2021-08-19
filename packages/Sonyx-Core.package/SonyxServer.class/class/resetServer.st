@@ -1,4 +1,4 @@
-accessing
+class initialization
 resetServer
 
 	Current := nil

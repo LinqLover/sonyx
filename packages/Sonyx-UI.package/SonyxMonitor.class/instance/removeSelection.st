@@ -1,4 +1,5 @@
-as yet unclassified
+actions
 removeSelection
-
+	 
 	(self selectedProbe ifNil: [^ self]) uninstall.
+	self selectProbe: nil.

@@ -1,7 +1,7 @@
 as yet unclassified
 basicMakePreview
 	 
-	| block |
+	| block result |
 	mocks := Dictionary new.
 	block := Compiler new
 		evaluate: self expression
@@ -11,4 +11,6 @@ basicMakePreview
 		notifying: self
 		ifFail: [self error]
 		logged: false.
-	^ block value
+	result := block value.
+	^ ((thisContext objectClass: result) includesBehavior: SonyxPreviewMock)
+		ifFalse: [result]

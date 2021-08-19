@@ -1,13 +1,13 @@
 initialization
 newExpressionMorph
-	
-	| container expressionSource |
+	 
+	| container |
 	container := self newLabelContainerMorph.
 	
 	expressionFieldMorph := (self 
-		editFieldInitialContent: ''
-		onChange: [:str | 
-			self annotation expression: ('[{1}]' format: {str}).
+		editFieldInitialContent: self defaultExpression
+		onChange: [:str |
+			self annotation expression: str.
 			self codeContentChanged]
 		onAccept: [:str | 
 			self containingBrowser codeTextMorph accept]).

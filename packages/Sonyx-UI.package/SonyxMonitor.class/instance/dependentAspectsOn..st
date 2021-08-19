@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 dependentAspectsOn: aspect
 
 	^ self aspectDependencies associations

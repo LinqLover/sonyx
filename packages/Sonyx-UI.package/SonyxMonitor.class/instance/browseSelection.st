@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 browseSelection
 
 	(self selectedProbe ifNil: [^ self]) methodReference browse

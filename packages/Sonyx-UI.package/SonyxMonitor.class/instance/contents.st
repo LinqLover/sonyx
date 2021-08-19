@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - state
 contents
 
 	^ self selectedProbe ifNotNil: #expression

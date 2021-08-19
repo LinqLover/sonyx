@@ -1,6 +1,6 @@
 playing
-basicPlaySound: squeakSound
+basicPlaySound: primitiveSound
 	 
 	
 	self flag: #todo. "Background process?"
-	mutex critical: [squeakSound play].
+	mutex critical: [primitiveSound play].

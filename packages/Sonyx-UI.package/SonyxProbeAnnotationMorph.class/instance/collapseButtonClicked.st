@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 collapseButtonClicked 
 	widgetsMorph visible
 		ifTrue: [widgetsMorph hide; disableLayout: true]

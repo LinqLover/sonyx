@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 stepTime
 
 	^ 100

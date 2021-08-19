@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"expressionFieldMorph",
-		"widgetsMorph" ],
+		"widgetsMorph",
+		"expressionEditorMorph" ],
 	"name" : "SonyxProbeAnnotationMorph",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-as yet unclassified
+prehearing
 makePreviewSound
 	 
 	^ SonyxPreviewGenerator makePreviewFor: self expression

@@ -1,5 +1,6 @@
 playing
 waitDuring: aBlock
-	
-	aBlock value.
+	 
+	[Processor yield.
+	aBlock value] forkAt: Processor activePriority.
 	semaphore wait.

@@ -3,11 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Current",
-		"IsActive" ],
+		"Current" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mutex" ],
+		"mutex",
+		"silence" ],
 	"name" : "SonyxServer",
 	"pools" : [
 		 ],

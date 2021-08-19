@@ -1,4 +1,4 @@
 instance creation
 new
 	 
-	^ super new tracer: SonyxTracer current
+	^ self on: SonyxTracer current

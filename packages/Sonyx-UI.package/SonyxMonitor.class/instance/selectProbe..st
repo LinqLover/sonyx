@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - state
 selectProbe: aProbe
 	 
 	selectedProbe := aProbe.

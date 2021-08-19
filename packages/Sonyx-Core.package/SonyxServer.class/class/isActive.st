@@ -1,4 +1,0 @@
-accessing
-isActive
-
-	^ IsActive

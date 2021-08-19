@@ -1,4 +1,4 @@
 initialize-release
 initialize
-
-	Current := self new
+	 
+	self current: self new

@@ -1,8 +1,13 @@
 accessing
 annotation: anAnnotation
-	
+	 
 	| expressionSource |
 	super annotation: anAnnotation.
-	expressionSource := (self annotation expression ifNil: ['[:result | result]']) asString.
-	expressionSource := expressionSource copyFrom: 2 to: (expressionSource size - 1 max: 1). "Removes the square brackets"
+	expressionSource := self annotation expression asString.
+	"self assert: expressionSource first = $[.
+	self assert: expressionSource last = $].
+	expressionSource := expressionSource allButFirst allButLast."
 	expressionFieldMorph setText: expressionSource.
+	expressionEditorMorph artefacts first
+		methodReference: self methodReference;
+		setFromSource: expressionSource

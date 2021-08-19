@@ -1,11 +1,11 @@
 tracing
 trace: aBlock through: expressionProbe forProbe: probeId inContext: aContext
-	
+	 
 	| tracer |
 	LastError ifNotNil: [^ aBlock value].
 	tracer := self current ifNil: [^ aBlock value].
 	
-	^  [| result |
+	^ [| result |
 	result := tracer trace: aBlock through: expressionProbe forProbe: probeId inContext: aContext.
 	LastError := nil.
 	result]

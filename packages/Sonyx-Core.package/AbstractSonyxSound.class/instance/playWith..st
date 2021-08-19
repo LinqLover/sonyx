@@ -1,4 +1,4 @@
 playing
 playWith: aServer
 	
-	^ aServer basicPlaySound: self newSqueakSound andWaitFor: self
+	^ aServer basicPlaySound: self makePrimitiveSound andWaitFor: self

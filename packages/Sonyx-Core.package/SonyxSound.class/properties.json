@@ -7,14 +7,14 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"volume",
-		"squeakSound",
 		"pitch",
 		"balance",
 		"synchronous",
 		"semaphore",
 		"duration",
 		"isPlaying",
-		"sonyxSqueakSound" ],
+		"squeakSound",
+		"primitiveSound" ],
 	"name" : "SonyxSound",
 	"pools" : [
 		 ],

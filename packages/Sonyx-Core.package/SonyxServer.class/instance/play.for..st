@@ -1,6 +1,8 @@
 playing
 play: aSound for: aProbe
 	 
+	self assureSteadySoundService.
+	
 	aSound ifNil: [^ self].
 	
 	aProbe addCurrentSound: aSound.

@@ -1,6 +1,6 @@
 *Sonyx-Core-annotations-menu
 sonyxAnnotationItems: aMenu
-	
+	 
 	<codePaneMenu> 
 	<menuPriority: 390>
 	"| annotationsInSelection |
@@ -14,7 +14,7 @@ aMenu
 	aMenu addLine.
 	
 	annotationsInSelection := self annotationsInSelection.
-	(annotationsInSelection anySatisfy: [:a | a isKindOf: SonyxBPAnnotation]) ifTrue: [
+	(annotationsInSelection anySatisfy: [:a | a isKindOf: SonyxProbeAnnotation]) ifTrue: [
 		aMenu add: 'remove sonyx annotation' action: #removeSonyxAnnotationFromSelection].
 	
 	^ aMenu

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - state
 isStepping: aBoolean
 
 	isStepping := aBoolean
