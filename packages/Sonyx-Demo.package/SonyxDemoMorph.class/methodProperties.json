@@ -1,14 +1,14 @@
 {
 	"class" : {
-		 },
+		"openExample" : "ct 8/18/2021 13:52" },
 	"instance" : {
 		"handlesMouseDown:" : "ct 6/20/2021 14:48",
 		"handlesMouseMove:" : "ct 6/27/2021 17:40",
 		"handlesMouseOver:" : "ct 6/20/2021 14:47",
 		"handlesMouseWheel:" : "ct 6/27/2021 14:51",
-		"mouseDown:" : "ct 7/3/2021 19:47",
-		"mouseEnter:" : "ct 6/20/2021 14:47",
+		"mouseDown:" : "ct 7/16/2021 20:15",
+		"mouseEnter:" : "ct 8/19/2021 06:44",
 		"mouseLeave:" : "ct 6/20/2021 14:47",
-		"mouseMove:" : "ct 7/3/2021 19:52",
-		"mouseUp:" : "ct 7/3/2021 20:02",
-		"mouseWheel:" : "ct 7/4/2021 20:15" } }
+		"mouseMove:" : "ct 8/18/2021 14:23",
+		"mouseUp:" : "ct 7/9/2021 17:08",
+		"mouseWheel:" : "ct 7/9/2021 17:14" } }

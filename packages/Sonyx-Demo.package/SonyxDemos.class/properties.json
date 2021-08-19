@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxDemos",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

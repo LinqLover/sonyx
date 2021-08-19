@@ -1,4 +1,4 @@
-event handling
+events-processing
 handlesMouseDown: anEvent
 
 	^ true

@@ -15,4 +15,4 @@ mouseUp: anEvent
 		synchronous: false;
 		yourself);
 	yourself
-]>" self"</sonyxBpAnnotation>" color: Color red.
+]>" self"</sonyxBpAnnotation>" color: Color red muchDarker.

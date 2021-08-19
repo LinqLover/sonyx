@@ -1,7 +1,8 @@
 event handling
 mouseWheel: anEvent
 	 
-	self flash. "<sonyxBpAnnotation id: 4537688 expression: [SonyxSound new
+	"self flash."self color: (Color h: self color hue s: self color saturation v: (anEvent wheelDelta r from: -200 to: 200)).
+	"<sonyxBpAnnotation id: 4537688 expression: [SonyxSound new
 	squeakSound: ('oboe1' asSound copy duration: 0.3);
 	synchronous: false;
 	volume: 0.1;
