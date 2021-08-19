@@ -1,0 +1,18 @@
+SmalltalkCISpec {
+	#loading : [
+		SCIMetacelloLoadSpec {
+			#baseline : 'Sonyx',
+			#directory : 'packages',
+			#platforms : [ #squeak ],
+			#load : [ 'tests' ]
+		}
+	],
+	#testing : {
+		#packages : [ 'Sonyx-Tests' ],
+		#coverage : {
+			#packages : [ 'Sonyx' ],
+			#categories : [ 'Sonyx-Core', 'Sonyx-UI' ],
+			#format : #coveralls
+		}
+	}
+}
