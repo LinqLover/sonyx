@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSonyx",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSonyx",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
