@@ -1,5 +1,6 @@
 baseline
 baseline: spec
+	 
 	<baseline>
 
 	spec for: #common do: [
@@ -28,6 +29,6 @@ baseline: spec
 		
 		"groups"
 		spec
-			group: #app with: #('Sonyx-Core Sonyx-UI Sonyx-Demo');
+			group: #app with: #('Sonyx-Core' 'Sonyx-UI' 'Sonyx-Demo');
 			group: #default with: #(#app #tests);
 			group: #tests with: 'Sonyx-Tests']
