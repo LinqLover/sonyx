@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"wrapper" ],
+	"name" : "SonyxTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

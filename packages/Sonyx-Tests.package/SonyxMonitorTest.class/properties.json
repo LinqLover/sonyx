@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"monitor" ],
+	"name" : "SonyxMonitorTest",
+	"pools" : [
+		 ],
+	"super" : "SonyxSoundTestCase",
+	"type" : "normal" }

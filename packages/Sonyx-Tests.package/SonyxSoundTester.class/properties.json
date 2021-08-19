@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"soundSystem" ],
+	"name" : "SonyxSoundTester",
+	"pools" : [
+		 ],
+	"super" : "SonyxTester",
+	"type" : "normal" }

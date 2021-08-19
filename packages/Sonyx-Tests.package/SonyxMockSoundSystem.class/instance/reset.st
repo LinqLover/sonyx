@@ -1,0 +1,4 @@
+accessing
+reset
+
+	lastPlayedSound := nil

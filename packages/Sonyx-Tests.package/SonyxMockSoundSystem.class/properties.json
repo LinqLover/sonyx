@@ -1,0 +1,16 @@
+{
+	"category" : "Sonyx-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"realSoundSystem",
+		"isListening",
+		"lastPlayedSound" ],
+	"name" : "SonyxMockSoundSystem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

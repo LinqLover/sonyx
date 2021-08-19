@@ -1,0 +1,4 @@
+mock
+isBehavior
+
+	^ true

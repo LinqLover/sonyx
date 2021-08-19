@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxSoundProbeTest",
+	"pools" : [
+		 ],
+	"super" : "SonyxSoundTestCase",
+	"type" : "normal" }
