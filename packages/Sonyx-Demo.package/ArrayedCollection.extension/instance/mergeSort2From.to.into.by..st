@@ -22,17 +22,17 @@ mergeSort2From: firstIndex to: lastIndex into: destination by: aBlock
 					at: lastIndex put: lastObject;
 					at: firstIndex put: firstObject ].
 		^self ].
-	"<sonyxBpAnnotation id: 9372229 expression: [SonyxSoundSequence withAll: ((self copyFrom: firstIndex to: lastIndex) collect: [:ea |
+	"<bpSonyxAnnotation id: 9372229 expression: [SonyxSoundSequence withAll: ((self copyFrom: firstIndex to: lastIndex) collect: [:ea |
 		SonyxSound new
 			squeakSound: #bass1;
 			duration: 0.2 seconds;
 			pitch: ((ea from: self min to: self max) into: 220 to: 880);
-			yourself]), {SonyxSound new squeakSound: (RestSound dur: 0.5)}]>" n := firstIndex + lastIndex // 2"</sonyxBpAnnotation>".
+			yourself]), {SonyxSound new squeakSound: (RestSound dur: 0.5)}]>" n := firstIndex + lastIndex // 2"</bpSonyxAnnotation>".
 	destination mergeSort2From: firstIndex to: n into: self by: aBlock.
 	destination mergeSort2From: n + 1 to: lastIndex into: self by: aBlock.
-	"<sonyxBpAnnotation id: 7502699 expression: [SonyxSoundSequence withAll: ((destination copyFrom: firstIndex to: lastIndex) collect: [:ea |
+	"<bpSonyxAnnotation id: 7502699 expression: [SonyxSoundSequence withAll: ((destination copyFrom: firstIndex to: lastIndex) collect: [:ea |
 		SonyxSound new
 			squeakSound: #mellowBrass;
 			duration: 0.2 seconds;
 			pitch: ((ea from: self min to: self max) into: 220 to: 880);
-			yourself]), {SonyxSound new squeakSound: (RestSound dur: 0.5)}]>" self mergeFirst: firstIndex middle: n last: lastIndex into: destination by: aBlock"</sonyxBpAnnotation>"
+			yourself]), {SonyxSound new squeakSound: (RestSound dur: 0.5)}]>" self mergeFirst: firstIndex middle: n last: lastIndex into: destination by: aBlock"</bpSonyxAnnotation>"

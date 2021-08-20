@@ -7,9 +7,9 @@ clientDo: aBlock ifError: errorBlock
 		yourself.
 	
 	response := aBlock value: client.
-	response isSuccess ifFalse: [^ "<sonyxBpAnnotation id: 2561539 expression: [SonyxSound new
+	response isSuccess ifFalse: [^ "<bpSonyxAnnotation id: 2561539 expression: [SonyxSound new
 		squeakSound: #barkTwice;
-		yourself]>" errorBlock"</sonyxBpAnnotation>" value: (Error new
+		yourself]>" errorBlock"</bpSonyxAnnotation>" value: (Error new
 		messageText: 'Request failed: ' , response;
 		yourself)].
 	response code = 204 ifTrue: [^ nil].

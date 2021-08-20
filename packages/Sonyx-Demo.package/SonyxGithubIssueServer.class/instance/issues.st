@@ -2,9 +2,9 @@ requests
 issues
 	 
 	| results |
-	results := "<sonyxBpAnnotation id: 5125470 expression: [SonyxSound new
+	results := "<bpSonyxAnnotation id: 5125470 expression: [SonyxSound new
 		squeakSound: #tropicalForestBird;
-		yourself]>" self"</sonyxBpAnnotation>"
+		yourself]>" self"</bpSonyxAnnotation>"
 		clientDo: [:client |
 			client httpGet: self baseUrl , '/issues' do: [:req |
 				req contentType: 'application/vnd.github.v3+json'.

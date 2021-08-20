@@ -1,4 +1,4 @@
 private
 keywords
-	
-	^ super keywords , #(sonyxBpAnnotation)
+	 
+	^ super keywords , #(bpSonyxAnnotation)

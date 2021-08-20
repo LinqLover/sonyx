@@ -1,7 +1,7 @@
 event handling
 mouseMove: anEvent
 	 
-	Transcript showln: "<sonyxBpAnnotation id: 640959 expression: [SonyxSound new
+	Transcript showln: "<bpSonyxAnnotation id: 640959 expression: [SonyxSound new
 		balance: 0;
 		squeakSound: #flute1;
 		duration: 0.3 seconds;
@@ -9,4 +9,4 @@ mouseMove: anEvent
 			into: 220
 			to: 440);
 		synchronous: false;
-		yourself]>" anEvent"</sonyxBpAnnotation>".
+		yourself]>" anEvent"</bpSonyxAnnotation>".

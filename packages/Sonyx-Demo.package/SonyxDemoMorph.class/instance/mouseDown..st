@@ -1,7 +1,7 @@
 event handling
 mouseDown: anEvent
 	 
-	"<sonyxBpAnnotation id: 1144525 expression: [SonyxSoundMix new
+	"<bpSonyxAnnotation id: 1144525 expression: [SonyxSoundMix new
 		add: (SonyxSound new
 			balance: 0;
 			squeakSound: PluckedSound default;
@@ -18,4 +18,4 @@ mouseDown: anEvent
 				to: 880);
 			synchronous: false;
 			yourself);
-		yourself]>" self"</sonyxBpAnnotation>" color: Color yellow.
+		yourself]>" self"</bpSonyxAnnotation>" color: Color yellow.
