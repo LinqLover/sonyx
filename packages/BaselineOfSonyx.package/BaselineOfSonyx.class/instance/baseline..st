@@ -7,16 +7,18 @@ baseline: spec
 		"dependencies"
 		spec
 			baseline: 'BabylonianProgramming' with: [
-				spec repository: 'github://hpi-swa-lab/babylonian-programming-smalltalk:develop/packages'];
+				spec repository: 'github://LinqLover/babylonian-programming-smalltalk:stream-sonyx/packages'];
 			package: 'IconsBase' with: [
 				spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'];
 			package: 'JSON' with: [spec repository: 'https://www.squeaksource.com/PostgresV3'];
 			baseline: 'Sandblocks' with: [
 				spec
-					repository: 'github://tom95/sandblocks:master/packages';
+					repository: 'github://LinqLover/sandblocks:stream-sonyx/packages';
 					loads: #('Sandblocks-Core' 'Sandblocks-Smalltalk' 'Sandblocks-Utils')];
 			baseline: 'SimulationStudio' with: [
-				spec repository: 'github://LinqLover/SimulationStudio:master/packages'].
+				spec
+					repository: 'github://LinqLover/SimulationStudio:master/packages';
+					loads: 'SimulationStudio-Base'].
 		
 		"packages"
 		spec
