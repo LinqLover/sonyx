@@ -23,7 +23,9 @@ baseline: spec
 		"packages"
 		spec
 			package: 'Sonyx-Core' with: [
-				spec requires: 'BabylonianProgramming'];
+				spec
+					requires: 'BabylonianProgramming';
+					postLoadDoIt: #postLoad];
 			package: 'Sonyx-UI' with: [
 				spec requires: #('Sonyx-Core' 'BabylonianProgramming' 'IconsBase' 'Sandblocks')];
 			package: 'Sonyx-Demo' with: [
