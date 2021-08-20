@@ -13,7 +13,7 @@ newEditorMorph
 		width: 200;
 		yourself.
 	expressionEditorMorph
-		colorPolicy: SBLightPlusTheme new.
+		colorPolicy: SonyxSandblocksTheme new.
 	"expressionEditorMorph compileTime: #compileOnChange." "currently disabled because pressing escape after changing a symbol to accept is not straightforward"
 	expressionEditorMorph suggestAlways: true.
 	expressionEditorMorph openMorphInView: (SonyxSandblocksContainer new

@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxSandblocksTheme",
+	"pools" : [
+		 ],
+	"super" : "SBLightPlusTheme",
+	"type" : "normal" }
