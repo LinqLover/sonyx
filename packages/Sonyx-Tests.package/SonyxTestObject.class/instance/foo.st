@@ -1,4 +1,4 @@
 as yet unclassified
 foo
 	 
-	^                                                                         6 * 7
+	^                                                                                6 * 7
