@@ -14,7 +14,7 @@ baseline: spec
 			baseline: 'Sandblocks' with: [
 				spec
 					repository: 'github://LinqLover/sandblocks:stream-sonyx/packages';
-					loads: #('Sandblocks-Core' 'Sandblocks-Smalltalk' 'Sandblocks-Utils')];
+					loads: #default];
 			baseline: 'SimulationStudio' with: [
 				spec
 					repository: 'github://LinqLover/SimulationStudio:master/packages';
