@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"isAbstract" : "ct 8/19/2021 02:28" },
+	"instance" : {
+		"acceptProbeText:" : "ct 8/19/2021 02:54",
+		"doesPlaySound:" : "ct 8/19/2021 03:37",
+		"installProbe" : "ct 8/19/2021 03:09",
+		"installProbeFor:" : "ct 8/19/2021 02:52",
+		"methodClass" : "ct 8/19/2021 02:30",
+		"methodSelector" : "ct 8/19/2021 02:30",
+		"methodToken" : "ct 8/19/2021 03:09",
+		"probeTester" : "ct 8/19/2021 06:14",
+		"shouldPlaySound:" : "ct 8/19/2021 02:48",
+		"shouldntPlaySound:" : "ct 8/19/2021 02:48",
+		"soundTester" : "ct 8/19/2021 06:14",
+		"switchProbeToTextEditor" : "ct 8/19/2021 03:11",
+		"testSoundSystem" : "ct 8/19/2021 03:06",
+		"uninstallProbe" : "ct 8/19/2021 02:59" } }

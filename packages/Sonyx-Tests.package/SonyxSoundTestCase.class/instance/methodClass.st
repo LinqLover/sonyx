@@ -1,0 +1,4 @@
+accessing
+methodClass
+
+	^ SonyxTestObject

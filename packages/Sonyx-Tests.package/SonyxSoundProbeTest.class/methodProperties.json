@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"compile:source:" : "ct 8/18/2021 19:09",
+		"disableProbe" : "ct 8/19/2021 02:58",
+		"enableProbe" : "ct 8/19/2021 02:58",
+		"executeMethod" : "ct 8/18/2021 22:01",
+		"executeMethodWith:" : "ct 8/18/2021 22:10",
+		"methodAnnotationMorph" : "ct 8/19/2021 03:00",
+		"methodAnnotationSandblocksEditor" : "ct 8/19/2021 02:58",
+		"methodResultFor:" : "ct 8/18/2021 22:10",
+		"methodSelector" : "ct 8/18/2021 22:00",
+		"methodSource" : "ct 8/18/2021 22:01",
+		"methodToken" : "ct 8/19/2021 03:09",
+		"sandblocksAccept" : "ct 8/18/2021 23:10",
+		"sandblocksInvertCondition" : "ct 8/18/2021 23:13",
+		"sandblocksWrapInConditional" : "ct 8/20/2021 08:24",
+		"setUp" : "ct 8/19/2021 02:50",
+		"setUpMethod" : "ct 8/18/2021 18:50",
+		"switchProbeToSandblocksEditor" : "ct 8/19/2021 02:59",
+		"testCollapseExpand" : "ct 8/18/2021 21:54",
+		"testDisableEnable" : "ct 8/18/2021 19:45",
+		"testPrehear" : "ct 8/18/2021 21:28",
+		"testSandblocksEditor" : "ct 8/18/2021 23:10",
+		"testSimple" : "ct 8/18/2021 18:53",
+		"testTextEditor" : "ct 8/18/2021 22:21",
+		"testUninstall" : "ct 8/18/2021 19:57" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxDemoMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,5 @@
+accessing
+duration
+	
+
+	^ duration

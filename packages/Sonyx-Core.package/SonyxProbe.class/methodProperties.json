@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCurrentSound:" : "ct 7/3/2021 21:50",
+		"bpAnnotations" : "ct 7/4/2021 16:10",
+		"enabled" : "ct 7/3/2021 20:58",
+		"enabled:" : "ct 7/3/2021 20:58",
+		"expression" : "ct 7/3/2021 19:30",
+		"expression:" : "ct 7/3/2021 19:30",
+		"fixup:" : "ct 8/18/2021 14:27",
+		"id" : "ct 7/3/2021 19:58",
+		"id:" : "ct 7/3/2021 19:58",
+		"initialize" : "ct 7/3/2021 21:52",
+		"isInitialized" : "ct 7/4/2021 15:13",
+		"isOutdated" : "ct 8/19/2021 01:57",
+		"isPlaying" : "ct 7/3/2021 21:51",
+		"makePreviewSound" : "ct 7/4/2021 00:24",
+		"methodReference" : "ct 7/3/2021 19:53",
+		"methodReference:" : "ct 7/3/2021 19:53",
+		"newExpression:" : "ct 7/4/2021 16:56",
+		"prehear" : "ct 7/4/2021 19:43",
+		"printOn:" : "ct 8/19/2021 04:23",
+		"removeCurrentSound:" : "ct 7/3/2021 21:50",
+		"uninstall" : "ct 7/4/2021 17:04",
+		"updateFrom:" : "ct 7/4/2021 15:01" } }

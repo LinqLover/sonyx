@@ -1,0 +1,4 @@
+accessing
+pragmas
+	 
+	^ #(bpSonyxAnnotation) isThisEverCalled

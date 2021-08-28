@@ -1,0 +1,17 @@
+{
+	"category" : "Sonyx-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tracer",
+		"probes",
+		"selectedProbe",
+		"isStepping" ],
+	"name" : "SonyxMonitor",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

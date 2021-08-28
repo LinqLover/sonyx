@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxSoundMix",
+	"pools" : [
+		 ],
+	"super" : "SonyxSoundComposition",
+	"type" : "normal" }

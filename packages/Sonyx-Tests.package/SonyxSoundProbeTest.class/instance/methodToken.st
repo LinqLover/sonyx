@@ -1,0 +1,4 @@
+accessing
+methodToken
+
+	^ '1'

@@ -1,0 +1,4 @@
+accessing
+selectedIssue
+
+	^ selectedIssue

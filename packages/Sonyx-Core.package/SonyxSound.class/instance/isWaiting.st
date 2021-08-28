@@ -1,0 +1,4 @@
+playing
+isWaiting
+
+	^ semaphore notEmpty

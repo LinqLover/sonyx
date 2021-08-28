@@ -1,0 +1,7 @@
+OrderedDictionary {
+	'packages/Sonyx-Core.package' : #SquotCypressCodeSerializer,
+	'packages/Sonyx-Demo.package' : #SquotCypressCodeSerializer,
+	'packages/Sonyx-UI.package' : #SquotCypressCodeSerializer,
+	'packages/Sonyx-Tests.package' : #SquotCypressCodeSerializer,
+	'packages/BaselineOfSonyx.package' : #SquotCypressCodeSerializer
+}

@@ -1,0 +1,4 @@
+Tools-icons
+toolIcon
+
+	^ #sonyxSound

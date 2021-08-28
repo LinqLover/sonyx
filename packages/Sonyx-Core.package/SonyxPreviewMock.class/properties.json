@@ -1,0 +1,15 @@
+{
+	"category" : "Sonyx-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"random",
+		"cache" ],
+	"name" : "SonyxPreviewMock",
+	"pools" : [
+		 ],
+	"super" : "ProtoObject",
+	"type" : "normal" }

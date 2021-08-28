@@ -1,0 +1,15 @@
+{
+	"category" : "Sonyx-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"selectedIssue" ],
+	"name" : "SonyxGithubIssueTool",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

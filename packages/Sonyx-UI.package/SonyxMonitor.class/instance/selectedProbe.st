@@ -1,0 +1,4 @@
+accessing - state
+selectedProbe
+	 
+	^ selectedProbe

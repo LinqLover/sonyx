@@ -1,0 +1,16 @@
+{
+	"category" : "Sonyx-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"selector",
+		"annotationMorphs" ],
+	"name" : "SonyxProbeTester",
+	"pools" : [
+		 ],
+	"super" : "SonyxTester",
+	"type" : "normal" }

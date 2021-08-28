@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxDemoStream",
+	"pools" : [
+		 ],
+	"super" : "ReadStream",
+	"type" : "normal" }
