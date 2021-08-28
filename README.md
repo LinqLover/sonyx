@@ -14,8 +14,10 @@ Developers can customize and combine these sounds or even design them to dynamic
 
 This project is based on [Babylonian Programming/Smalltalk](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/) and [Sandblocks](https://github.com/tom95/sandblocks).
 
-<a href="./assets/SonyxDemoMorph.mp4"><video alt="SonyxDemoMorph" src="./assets/SonyxDemoMorph.mp4"></a>
-</video>
+## Impressions
+
+_Make sure to turn your sound on!_
+<video src="https://user-images.githubusercontent.com/38782922/131224109-b474991a-5558-4a62-aff4-ed17e512e663.mp4"></video>
 
 <table>
 <tbody>
@@ -26,6 +28,7 @@ This project is based on [Babylonian Programming/Smalltalk](https://github.com/h
 </tbody>
 </table>
 
+[Browse all screenshots and screencasts](./assets)
 
 ## Installation
 
