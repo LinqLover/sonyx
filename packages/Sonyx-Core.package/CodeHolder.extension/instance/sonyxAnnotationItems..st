@@ -9,12 +9,12 @@ sonyxAnnotationItems: aMenu
 	
 	| annotationsInSelection |
 aMenu
-		add: 'add sonyx annotation' action: #addSonyxAnnotationToSelection.
+		add: 'add sonyx probe' action: #addSonyxAnnotationToSelection.
 	
 	aMenu addLine.
 	
 	annotationsInSelection := self annotationsInSelection.
 	(annotationsInSelection anySatisfy: [:a | a isKindOf: SonyxProbeAnnotation]) ifTrue: [
-		aMenu add: 'remove sonyx annotation' action: #removeSonyxAnnotationFromSelection].
+		aMenu add: 'remove sonyx probe' action: #removeSonyxAnnotationFromSelection].
 	
 	^ aMenu
