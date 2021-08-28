@@ -1,7 +1,7 @@
 event handling
 mouseMove: anEvent
 	 
-	Transcript showln: "<bpSonyxAnnotation id: 640959 expression: [SonyxSound new
+	"<bpSonyxAnnotation id: 640959 expression: [SonyxSound new
 		balance: 0;
 		squeakSound: #flute1;
 		duration: 0.3 seconds;
@@ -9,4 +9,5 @@ mouseMove: anEvent
 			into: 220
 			to: 440);
 		synchronous: false;
-		yourself]>" anEvent"</bpSonyxAnnotation>".
+		volume: 0.2;
+		yourself]>" self"</bpSonyxAnnotation>" borderColor: (Color h: anEvent timeStamp / 10 s: 0.8 v: 0.85)
