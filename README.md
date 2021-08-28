@@ -9,9 +9,12 @@ For more information, please refer to the [acknowledgements](./docs/ACKNOWLEDGEM
 
 The main idea of sonyx is to empower developers to understand (large) software systems by listening to particular aspects of interest.
 To do this, developers can create *sound probes* on-the-fly for any expression in method in the system.
-Whenever this expression is reached during the system execution, a 
+Whenever this expression is reached during the system execution, a user-defined sound is played.
+Developers can customize and combine these sounds or even design them to dynamically reflect the state or result of the expression.
 
-<video alt="SonyxDemoMorph" src="./assets/SonyxDemoMorph.mp4)](./assets/SonyxDemoMorph.mp4">
+This project is based on [Babylonian Programming/Smalltalk](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/) and [Sandblocks](https://github.com/tom95/sandblocks).
+
+<a href="./assets/SonyxDemoMorph.mp4"><video alt="SonyxDemoMorph" src="./assets/SonyxDemoMorph.mp4"></a>
 </video>
 
 <table>
