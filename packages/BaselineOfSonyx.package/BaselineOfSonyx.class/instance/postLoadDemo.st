@@ -1,0 +1,4 @@
+scripts
+postLoadDemo
+	 
+	self recompileAnnotations.

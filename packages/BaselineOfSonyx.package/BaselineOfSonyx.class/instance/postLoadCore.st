@@ -1,4 +1,4 @@
 scripts
-postLoad
+postLoadCore
 	 
 	self setUpBabylonian.
