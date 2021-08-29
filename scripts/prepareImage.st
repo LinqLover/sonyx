@@ -10,12 +10,12 @@ workspacePath := [| dir |
 		dir = (dir := dir containingDirectory) ifTrue: [
 			self error: 'repository not found']].
 	dir fullName] value.
-[(Smalltalk at: #MCTonelMissing) new defaultAction] valueSupplyingAnswer: true.
 Transcript showln: ('Installing sonyx from {1}... ' format: {workspacePath}).
-Metacello new
+[Metacello new
 	baseline: 'Sonyx';
 	repository: 'filetree://' , workspacePath , '/packages';
-	load.
+	load]
+		valueSupplyingAnswer: {'Tonel support is missing*'. true}.
 Transcript showln: 'Sonyx was installed'.
 
 "Prepare world"
