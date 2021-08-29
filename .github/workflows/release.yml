@@ -26,12 +26,12 @@ jobs:
       - uses: actions/download-artifact@master
         with:
           name: image
-      - run: mv Squeak*.zip SqueakInboxTalk-${{ steps.date.outputs.date }}.zip
+      - run: mv Squeak*.zip Sonyx-${{ steps.date.outputs.date }}.zip
       - uses: softprops/action-gh-release@v1
         with:
           tag_name: untagged-${{ steps.date.outputs.date }}
           body: ${{ github.event.head_commit.message }}
-          files: SqueakInboxTalk-*.zip
+          files: Sonyx-*.zip
           fail_on_unmatched_files: true
           prerelease: true
         env:

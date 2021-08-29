@@ -3,7 +3,7 @@
 (World submorphOfClass: PreferenceWizardMorph) ifNotNil: #delete.
 TheWorldMainDockingBar instance closeAllWindows.
 
-"Install SIT"
+"Install sonyx"
 workspacePath := [| dir |
 	dir := (Smalltalk globals at: #CIPrepareImageDirectory) directoryEntry.
 	[(dir / '.project') exists] whileFalse: [
