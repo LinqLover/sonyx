@@ -1,4 +1,4 @@
-*Sonyx-demo-sorting
+*Sonyx-Demo-sorting
 mergeSort2From: firstIndex to: lastIndex into: destination by: aBlock
 	 
 	"Private. Split the range to be sorted in half, sort each half, and 
