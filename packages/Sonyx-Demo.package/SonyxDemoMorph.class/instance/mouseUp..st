@@ -1,7 +1,7 @@
 event handling
 mouseUp: anEvent
 	 
-	"<sonyxBpAnnotation id: 6600842 expression: [ SonyxSoundMix new
+	"<bpSonyxAnnotation id: 6600842 expression: [ SonyxSoundMix new
 	add: (SonyxSound new
 		balance: 0;
 		squeakSound: (PluckedSound default);
@@ -15,4 +15,4 @@ mouseUp: anEvent
 		synchronous: false;
 		yourself);
 	yourself
-]>" self"</sonyxBpAnnotation>" color: Color red muchDarker.
+]>" self"</bpSonyxAnnotation>" color: Color red muchDarker.
