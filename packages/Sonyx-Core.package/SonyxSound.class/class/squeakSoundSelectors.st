@@ -1,4 +1,4 @@
 constants
 squeakSoundSelectors
 	 
-	^ AbstractSound sounds keys , SampledSound soundLibrary keys
+	^ AbstractSound sounds keys , SampledSound soundLibrary keys , SonyxSounds keys

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"brownHeadSamples" : "ct 8/29/2021 21:00",
+		"brownHeadSound" : "ct 8/29/2021 21:25",
+		"coinWinSamples" : "ct 8/29/2021 21:10",
+		"coinWinSound" : "ct 8/29/2021 21:25",
+		"fileInSingleSound:" : "ct 8/29/2021 21:09",
+		"greenBackBirdSamples" : "ct 8/29/2021 21:02",
+		"greenBackBirdSound" : "ct 8/29/2021 21:25",
+		"initialize" : "ct 8/29/2021 21:01",
+		"keys" : "ct 8/29/2021 21:11",
+		"lionSamples" : "ct 8/29/2021 21:15",
+		"lionSound" : "ct 8/29/2021 21:25",
+		"loadFromFileNamed:as:into:" : "ct 8/29/2021 21:25",
+		"resources" : "ct 8/29/2021 21:25",
+		"showCredits" : "ct 8/29/2021 21:27",
+		"soundNamed:ifAbsent:" : "ct 8/29/2021 21:14",
+		"tropicalForestBirdSamples" : "ct 8/29/2021 21:04",
+		"tropicalForestBirdSound" : "ct 8/29/2021 21:25" },
+	"instance" : {
+		 } }

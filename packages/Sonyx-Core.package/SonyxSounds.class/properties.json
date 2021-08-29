@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Sounds" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxSounds",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
