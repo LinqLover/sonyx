@@ -1,7 +1,7 @@
 event handling
 mouseWheel: anEvent
 	 
-	"self flash."self color: (Color h: self color hue s: self color saturation v: (anEvent wheelDelta r from: -200 to: 200)).
+	self color: (Color h: self color hue s: self color saturation v: (anEvent wheelDelta r from: -200 to: 200)).
 	"<bpSonyxAnnotation id: 4537688 expression: [SonyxSound new
 		squeakSound: #oboe1;
 		synchronous: false;

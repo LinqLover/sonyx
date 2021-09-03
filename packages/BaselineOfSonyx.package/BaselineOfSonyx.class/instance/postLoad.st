@@ -1,4 +1,0 @@
-scripts
-postLoad
-	 
-	self setUpBabylonian.

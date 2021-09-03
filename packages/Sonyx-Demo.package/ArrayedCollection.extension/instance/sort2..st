@@ -1,4 +1,4 @@
-*Sonyx-demo-sorting
+*Sonyx-Demo-sorting
 sort2: aSortBlock
 	 
 

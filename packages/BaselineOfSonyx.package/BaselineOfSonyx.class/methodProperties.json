@@ -2,7 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"baseline:" : "ct 8/20/2021 21:38",
-		"postLoad" : "ct 8/20/2021 21:41",
+		"baseline:" : "ct 8/29/2021 18:39",
+		"browseCode" : "ct 8/29/2021 15:47",
+		"browseDemos" : "ct 8/29/2021 16:28",
+		"decompile:" : "ct 8/29/2021 15:29",
+		"htmlParse:" : "ct 8/29/2021 15:31",
+		"openReadme" : "ct 8/29/2021 15:51",
+		"openUrl:" : "ct 8/29/2021 15:50",
+		"openWelcomeContents" : "ct 8/29/2021 15:51",
+		"postLoadCore" : "ct 8/29/2021 20:39",
+		"postLoadDemo" : "ct 8/29/2021 18:40",
 		"projectClass" : "ct 8/19/2021 07:47",
+		"recompileAnnotations" : "ct 8/29/2021 21:44",
 		"setUpBabylonian" : "ct 8/20/2021 21:41" } }

@@ -25,11 +25,13 @@ baseline: spec
 			package: 'Sonyx-Core' with: [
 				spec
 					requires: 'BabylonianProgramming';
-					postLoadDoIt: #postLoad];
+					postLoadDoIt: #postLoadCore];
 			package: 'Sonyx-UI' with: [
 				spec requires: #('Sonyx-Core' 'BabylonianProgramming' 'IconsBase' 'Sandblocks')];
 			package: 'Sonyx-Demo' with: [
-				spec requires: #('Sonyx-UI' 'JSON' 'SimulationStudio')].
+				spec
+					requires: #('Sonyx-UI' 'JSON' 'SimulationStudio');
+					postLoadDoIt: #postLoadDemo].
 		"test packages"
 		spec package: 'Sonyx-Tests' with: [spec requires: #app].
 		

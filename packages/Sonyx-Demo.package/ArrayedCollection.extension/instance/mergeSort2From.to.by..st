@@ -1,4 +1,4 @@
-*Sonyx-demo-sorting
+*Sonyx-Demo-sorting
 mergeSort2From: startIndex to: stopIndex by: aBlock
 	 
 	"Sort the given range of indices using the mergesort algorithm.
