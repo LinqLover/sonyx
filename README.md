@@ -108,8 +108,8 @@ This package structure of this project is organized as follows:
 <table>
 	<thead>
 		<tr>
-			<td>Package</td>
-			<td>Description</td>
+			<td><strong>Package</strong></td>
+			<td><strong>Description</strong></td>
 		</tr>
 	</thead>
 	<tbody>
