@@ -11,5 +11,5 @@ sandblocksWrapInConditional
 	editor performForSelection: #wrapInMessageSend.
 	editor selection currentTextMorph insertString: 'even'.
 	
-	editor performForSelection: #moveCursorRightWordwise.
+	editor performForSelection: #moveTextCursorRight.
 	editor selection currentTextMorph insertString: 'ifTrue'.
