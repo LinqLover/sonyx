@@ -4,6 +4,7 @@
 		"current" : "ct 6/26/2021 21:35",
 		"currentOrNil" : "ct 8/18/2021 17:53",
 		"initializeServer" : "ct 6/26/2021 21:34",
+		"isSteady" : "ct 9/4/2021 15:33",
 		"resetServer" : "ct 6/27/2021 15:59" },
 	"instance" : {
 		"assureSteadySoundService" : "ct 8/18/2021 17:49",
@@ -11,6 +12,8 @@
 		"basicPlaySound:andWaitFor:" : "ct 8/18/2021 17:00",
 		"dropSteadySoundService" : "ct 8/18/2021 17:52",
 		"initialize" : "ct 7/3/2021 21:34",
+		"isSteady" : "ct 9/4/2021 15:29",
+		"isSteadySoundServicePlaying" : "ct 9/4/2021 15:29",
 		"play:" : "ct 6/26/2021 21:36",
 		"play:for:" : "ct 8/18/2021 17:49",
 		"release" : "ct 8/18/2021 17:52",
