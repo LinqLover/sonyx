@@ -99,3 +99,38 @@ In the event that you should stumble into any problems, next to contacting me an
 - If any other terrible things have happened that stop you from using sonyx as inspected, just close Squeak without saving the changes and try your luck again.
 
 In any case, if you find any defect that you are able to reproduce, I will appreciate your bug report.
+
+## Architecture
+
+This package structure of this project is organized as follows:
+
+<table>
+	<thead>
+		<tr>
+			<td>Package</td>
+			<td>Description</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="packages/BaselineOfSonyx/">BaselineOfSonyx</a></td>
+			<td>Package metadata. Contains scripts to set up the deploy image and fill it with welcome contents.</td>
+		</tr>
+		<tr>
+			<td><a href="packages/Sonyx-Core/">Sonyx-Core</a></td>
+			<td>Contains core functionality of sonyx and integration into the Squeak system. Provides the sound API and a set of sound samples.</td>
+		</tr>
+		<tr>
+			<td><a href="packages/Sonyx-Demo/">Sonyx-Demo</a></td>
+			<td>Contains several examples that demonstrate the features of sonyx.</td>
+		</tr>
+		<tr>
+			<td><a href="packages/Sonyx-UI/">Sonyx-UI</a></td>
+			<td>View logic for the facilities implemented in the Core package. Includes sound annotations, a sound monitor, and integrates Sandblocks into the probe annoations.</td>
+		</tr>
+		<tr>
+			<td><a href="packages/Sonyx-Tests/">Sonyx-Tests</a></td>
+			<td>Includes end-to-end tests for sonyx.</td>
+		</tr>
+	</tbody>
+</table>
