@@ -114,24 +114,24 @@ This package structure of this project is organized as follows:
 	</thead>
 	<tbody>
 		<tr>
-			<td><a href="packages/BaselineOfSonyx/">BaselineOfSonyx</a></td>
+			<td><a href="packages/BaselineOfSonyx.package/">BaselineOfSonyx</a></td>
 			<td>Package metadata. Contains scripts to set up the deploy image and fill it with welcome contents.</td>
 		</tr>
 		<tr>
-			<td><a href="packages/Sonyx-Core/">Sonyx-Core</a></td>
+			<td><a href="packages/Sonyx-Core.package/">Sonyx-Core</a></td>
 			<td>Contains core functionality of sonyx and integration into the Squeak system. Provides the sound API and a set of sound samples.</td>
 		</tr>
 		<tr>
-			<td><a href="packages/Sonyx-Demo/">Sonyx-Demo</a></td>
+			<td><a href="packages/Sonyx-Demo.package/">Sonyx-Demo</a></td>
 			<td>Contains several examples that demonstrate the features of sonyx.</td>
 		</tr>
 		<tr>
-			<td><a href="packages/Sonyx-UI/">Sonyx-UI</a></td>
-			<td>View logic for the facilities implemented in the Core package. Includes sound annotations, a sound monitor, and integrates Sandblocks into the probe annoations.</td>
+			<td><a href="packages/Sonyx-Tests.package/">Sonyx-Tests</a></td>
+			<td>Includes end-to-end tests for sonyx.</td>
 		</tr>
 		<tr>
-			<td><a href="packages/Sonyx-Tests/">Sonyx-Tests</a></td>
-			<td>Includes end-to-end tests for sonyx.</td>
+			<td><a href="packages/Sonyx-UI.package/">Sonyx-UI</a></td>
+			<td>View logic for the facilities implemented in the Core package. Includes sound annotations, a sound monitor, and integrates Sandblocks into the probe annotations.</td>
 		</tr>
 	</tbody>
 </table>
