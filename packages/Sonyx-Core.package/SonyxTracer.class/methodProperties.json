@@ -2,12 +2,14 @@
 	"class" : {
 		"current" : "ct 7/3/2021 19:15",
 		"current:" : "ct 8/19/2021 02:15",
+		"hasError" : "ct 9/4/2021 16:03",
 		"initialize" : "ct 8/19/2021 02:15",
 		"isActive" : "ct 8/19/2021 06:55",
 		"resetError" : "ct 7/4/2021 15:03",
 		"trace:through:forProbe:inContext:" : "ct 8/19/2021 06:53" },
 	"instance" : {
 		"fixup:" : "ct 8/18/2021 14:26",
+		"hasError" : "ct 9/4/2021 16:03",
 		"initialize" : "ct 7/3/2021 21:15",
 		"isActive" : "ct 7/3/2021 19:14",
 		"isActive:" : "ct 8/18/2021 17:56",
