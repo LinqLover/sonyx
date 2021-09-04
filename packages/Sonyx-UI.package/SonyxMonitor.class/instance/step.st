@@ -1,4 +1,7 @@
 updating
 step
 	 
-	self isStepping ifTrue: [self updateProbes]
+	self isStepping ifFalse: [^ self].
+	
+	self updateProbes.
+	self changed: #fixupButtonColor.
