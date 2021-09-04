@@ -9,7 +9,7 @@ It has initially been developed within the course ["Sonic Thinking - Methods of 
 For more information, please refer to the [acknowledgements](./docs/ACKNOWLEDGEMENTS.md).
 
 The main idea of sonyx is to empower developers to understand (large) software systems by listening to particular aspects of interest.
-To do this, developers can create *sound probes* on-the-fly for any expression in method in the system.
+To do this, developers can create *sound probes* on-the-fly for any expression in any method in the system.
 Whenever this expression is reached during the system execution, a user-defined sound is played.
 Developers can customize and combine these sounds or even design them to dynamically reflect the state or result of the expression.
 
@@ -17,7 +17,7 @@ This project is based on [Babylonian Programming/Smalltalk](https://github.com/h
 
 ## Impressions
 
-_Make sure to turn your sound on!_
+*Make sure to turn your sound on!*
 <video src="https://user-images.githubusercontent.com/38782922/131224109-b474991a-5558-4a62-aff4-ed17e512e663.mp4"></video>
 
 <table>
@@ -29,11 +29,12 @@ _Make sure to turn your sound on!_
 </tbody>
 </table>
 
-[Browse all screenshots and screencasts](./assets)
+<small>[Browse all screenshots and screencasts](./assets)</small>
 
-## Download and Installation
+## Download and installation
 
 A ready-to-use Squeak image is available in the [latest release](https://github.com/LinqLover/sonyx/releases).
+Extract the zip file and execute the `squeak.bat` file on Windows or the `squeak.sh` for Linux/macOS.
 
 If you wish, you can also set up sonyx yourself:
 
