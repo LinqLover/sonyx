@@ -14,6 +14,7 @@ buildTopButton: aBuilder
 				model: self;
 				label: 'fixup (in case of trouble)';
 				action: #fixup;
+				color: #fixupButtonColor;
 				yourself);
 			yourself);
 		yourself

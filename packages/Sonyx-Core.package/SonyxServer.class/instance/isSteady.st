@@ -1,0 +1,4 @@
+testing
+isSteady
+
+	^ self isSteadySoundServicePlaying
