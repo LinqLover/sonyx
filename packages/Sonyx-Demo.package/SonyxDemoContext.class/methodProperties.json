@@ -1,7 +1,10 @@
 {
 	"class" : {
-		 },
+		"examplePoints" : "ct 9/5/2021 15:43" },
 	"instance" : {
-		"object:instVarAt:" : "ct 8/20/2021 08:19",
-		"object:instVarAt:put:" : "ct 8/20/2021 08:19",
-		"simulatedObject:instVarAt:put:" : "ct 8/20/2021 08:19" } }
+		"doPrimitive:method:receiver:args:" : "ct 9/5/2021 15:14",
+		"noteInstVarAccessTo:at:" : "ct 9/5/2021 15:19",
+		"noteInstVarAccessTo:at:put:" : "ct 9/5/2021 15:19",
+		"object:instVarAt:" : "ct 9/5/2021 15:16",
+		"object:instVarAt:put:" : "ct 9/5/2021 15:17",
+		"simulatedObject:instVarAt:put:" : "ct 9/5/2021 15:17" } }
