@@ -1,4 +1,4 @@
-as yet unclassified
+private
 newMock
 
 	^ SonyxPreviewMock new xxxRandom: ThreadSafeRandom value
