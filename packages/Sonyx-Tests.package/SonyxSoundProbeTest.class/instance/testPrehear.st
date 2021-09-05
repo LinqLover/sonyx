@@ -2,4 +2,4 @@ tests
 testPrehear
 	 
 	self installProbe.
-	self shouldPlaySound: [self methodAnnotationMorph prehearButtonClicked].
+	self shouldPlaySound: [self methodAnnotationMorph prehear].
