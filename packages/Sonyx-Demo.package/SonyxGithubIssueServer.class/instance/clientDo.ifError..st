@@ -8,7 +8,7 @@ clientDo: aBlock ifError: errorBlock
 	
 	response := aBlock value: client.
 	response isSuccess ifFalse: [^ "<bpSonyxAnnotation id: 2561539 expression: [SonyxSound new
-		squeakSound: #barkTwice;
+		squeakSound: #clink;
 		yourself]>" errorBlock"</bpSonyxAnnotation>" value: (Error new
 		messageText: 'Request failed: ' , response;
 		yourself)].
