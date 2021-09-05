@@ -1,6 +1,7 @@
 private
 pseudoMethodBlock
 	 
+	"Try to compile the containing method from the CodeHolder to provide all bindings for completion suggestions."
 	| methodNode |
 	methodNode := [SBPCMapper new
 		buildNodeMapFor: self methodText asString
