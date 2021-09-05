@@ -1,0 +1,1 @@
+I represent a normal sound in the sonyx sound API. I can be customized with regard to many parameters (see accessing protocol). All 'fractionLike' or 'booleanLike' accessors can also be passed an evaluable (such as a block) to modulate their values while I am playing.

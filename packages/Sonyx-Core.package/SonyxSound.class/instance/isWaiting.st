@@ -1,4 +1,4 @@
-playing
+testing
 isWaiting
 
 	^ semaphore notEmpty

@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"exampleAM" : "ct 9/4/2021 21:30",
+		"exampleFM" : "ct 9/4/2021 21:28",
 		"squeakSoundSelectors" : "ct 8/29/2021 21:07" },
 	"instance" : {
 		"balance" : "ct 6/27/2021 01:40",
@@ -8,7 +10,7 @@
 		"duration:" : "ct 6/27/2021 20:32",
 		"initialize" : "ct 7/3/2021 21:25",
 		"isPlaying" : "ct 7/3/2021 21:25",
-		"isPlaying:" : "ct 8/18/2021 16:57",
+		"isPlaying:" : "ct 9/4/2021 21:58",
 		"isWaiting" : "ct 6/27/2021 15:42",
 		"makePrimitiveSound" : "ct 8/18/2021 16:59",
 		"pitch" : "ct 6/26/2021 21:39",
@@ -18,7 +20,7 @@
 		"stopPlaying" : "ct 8/18/2021 16:57",
 		"synchronous" : "ct 6/27/2021 15:27",
 		"synchronous:" : "ct 6/27/2021 15:27",
-		"valueOf:for:" : "ct 6/27/2021 01:21",
+		"valueOf:for:" : "ct 9/4/2021 21:57",
 		"volume" : "ct 6/26/2021 21:26",
 		"volume:" : "ct 6/26/2021 21:26",
-		"waitDuring:" : "ct 9/4/2021 16:16" } }
+		"waitDuring:" : "ct 9/4/2021 22:01" } }

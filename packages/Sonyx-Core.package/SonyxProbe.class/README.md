@@ -1,0 +1,1 @@
+I represent a sound probe in sonyx that refers to a method and contains an expression to generate a SonyxSound. I also keep track of all currently playing sound instances for myself.

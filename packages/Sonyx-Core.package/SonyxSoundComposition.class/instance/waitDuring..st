@@ -1,6 +1,8 @@
 playing
-waitDuring: aBlock
+waitDuring: playBlock
 	 
+	"Use one helper semaphore and n helper processes to wait for every composed sound of the receiver."
+
 	| semaphore helperProcesses |
 	semaphore := Semaphore new.
 	
@@ -11,6 +13,6 @@ waitDuring: aBlock
 		Processor yield.
 		process].
 	
-	[aBlock value.
+	[playBlock value.
 	sounds do: [:sound | semaphore wait]]
 		ifCurtailed: [helperProcesses do: #terminate].

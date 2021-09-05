@@ -1,0 +1,1 @@
+I am responsible for playing SonyxSounds in a thread-safe manner. I also make sure that the SoundService is always steady.

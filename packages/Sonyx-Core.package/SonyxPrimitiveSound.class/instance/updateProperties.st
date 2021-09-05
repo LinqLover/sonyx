@@ -1,6 +1,6 @@
 updating
 updateProperties
-	
+	 
 	| progress |
 	progress := self progress.
 	
