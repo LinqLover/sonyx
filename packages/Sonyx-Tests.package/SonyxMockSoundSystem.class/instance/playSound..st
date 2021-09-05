@@ -9,6 +9,7 @@ playSound: aSound
 	lastPlayedSound := aSound.
 	aSound playSilently.
 	
-	self isListening ifTrue: [
-		self realSoundSystem playSound: aSound.
-		SoundPlayer waitUntilDonePlaying: aSound].
+	self isListening ifTrue: [ | copy |
+		copy := aSound copy.
+		self realSoundSystem new playSound: copy.
+		SoundPlayer waitUntilDonePlaying: copy].
