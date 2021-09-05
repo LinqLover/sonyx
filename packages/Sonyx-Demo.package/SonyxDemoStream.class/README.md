@@ -1,0 +1,1 @@
+I am a special ReadStream that provides sonified hooks for navigating through the stream.
