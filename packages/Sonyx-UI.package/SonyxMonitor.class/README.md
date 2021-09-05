@@ -1,0 +1,1 @@
+I am a tool that allows sonyx users to watch, browse, and control all sound probes that are defined in the system. In addition, I provide some simple troubleshooting utilties in the UI.
