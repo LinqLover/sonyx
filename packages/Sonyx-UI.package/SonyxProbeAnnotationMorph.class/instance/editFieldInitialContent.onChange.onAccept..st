@@ -1,6 +1,6 @@
 actions
 editFieldInitialContent: aString onChange: changeBlock onAccept: acceptBlock
-	
+	 
 	| textMorph |
 	^ (textMorph := super editFieldInitialContent: aString onChange: changeBlock onAccept: acceptBlock)
 		model: ((textMorph model as: SonyxCodeValueModel)

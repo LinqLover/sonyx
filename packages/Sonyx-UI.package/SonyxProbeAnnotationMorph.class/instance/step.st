@@ -2,4 +2,4 @@ layouting
 step
 	 
 	self adjustWidth.
-	expressionEditorMorph height: expressionEditorMorph artefacts first height + 10.
+	sandblocksEditor height: sandblocksEditor artefacts first height + 10.

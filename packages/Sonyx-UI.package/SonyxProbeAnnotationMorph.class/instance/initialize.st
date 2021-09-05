@@ -1,25 +1,21 @@
 initialization
 initialize
 	 
-	| removeButton editorMorph expressionMorph |
 	super initialize.
 	
-	removeButton := self newRemoveButton
-		balloonText: 'remove sound';
+	textEditor := self newTextEditor.
+	sandblocksEditor := self newSandblocksEditor.
+	
+	widgetsMorph := self newWidgetsMorph
+		addMorph: (self newContainerMorphWith: textEditor);
+		addMorph: (self newContainerMorphWith: sandblocksEditor);
 		yourself.
-	"This morph holds the traces and the expression morph"
-	widgetsMorph := self newWidgetsMorph.
-	expressionMorph := self newExpressionMorph.
-	editorMorph := self newEditorMorph.
-	(self useSandblocks ifTrue: [expressionFieldMorph owner] ifFalse: [expressionEditorMorph owner])
-		hide; disableLayout: true.
-	widgetsMorph addAllMorphs: {expressionMorph. editorMorph}.
+	self editorType: self defaultEditorType.
 	
-	self addActivationButtonMorph.
-	self addPrehearButtonMorph.
-	self addCollapseButtonMorph.
-	self addToggleEditorButtonMorph.
-	self addMorphBack: widgetsMorph.
-	self addMorphBack: removeButton.
-	
-	self startStepping
+	self
+		addMorphBack: self newEnablementButton;
+		addMorphBack: self newPrehearButton;
+		addMorphBack: self newCollapseButton;
+		addMorphBack: self newToggleEditorButton;
+		addMorphBack: widgetsMorph;
+		addMorphBack: self newRemoveButton.
