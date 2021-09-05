@@ -2,6 +2,8 @@ demos
 demoRegex
 	 
 	"
+	This example uses sound probes to monitor all accesses that are made to a string while matching it against a regular expression. Listen to the sonification of the following two regular expressions in order to understand their approach and to assess their efficiency.
+	
 	self demoRegex
 	"
 	 

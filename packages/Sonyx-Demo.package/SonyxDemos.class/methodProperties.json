@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"demoRegex" : "ct 9/4/2021 15:36",
-		"demoSort" : "ct 9/4/2021 16:19",
+		"demoRegex" : "ct 9/5/2021 21:07",
+		"demoSort" : "ct 9/5/2021 21:08",
 		"informUser:during:" : "ct 9/4/2021 15:04",
-		"openDemoMorph" : "ct 9/4/2021 16:19",
-		"openDemoServer" : "ct 9/4/2021 16:19",
-		"openDemoSimulation" : "ct 9/5/2021 15:47" },
+		"openDemoMorph" : "ct 9/5/2021 21:09",
+		"openDemoServer" : "ct 9/5/2021 21:10",
+		"openDemoSimulation" : "ct 9/5/2021 21:12" },
 	"instance" : {
 		 } }
