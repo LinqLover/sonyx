@@ -63,7 +63,7 @@ It is recommended that you skim through the sections in chapter 1 ("A quick tour
 ### Using sonyx
 
 In the ready-to-use image (see [download and installation](#download-and-installation) above), you will find a link to the **`SonyxDemos` class.**
-When browsing this class, you can select any of the demo messages, place the cursor in the central line of the method comment (which is denoted by the quotes), and press <kbd>cmd</kbd> + <kbd>d</kbd> to run this demo.
+When browsing this class, you can select any of the demo messages, select the central line of the method comment (which is denoted by the quotes), and press <kbd>cmd</kbd> + <kbd>d</kbd> to run this demo.
 To inspect how an example works, select a class or method in its example of interest (for instance, `SonyxDemoStream` or `sorted2`) and press <kbd>cmd</kbd> + <kbd>b</kbd> resp. <kbd>cmd</kbd> + <kbd>m</kbd> to browse it resp. to look up its implementation.
 
 You can **define your own sound probes** in any method you want.
