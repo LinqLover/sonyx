@@ -5,7 +5,9 @@ wrapTester: executeAroundBlock
 	
 	Usage:
 		self wrapTest: [:block | Utilities useAuthorInitials: 'xyz' during: block].
-		self wrapTest: [:block | resource := self doSomeSetUp. block ensure: [resource reset]]."
+		self wrapTest: [:block | resource := self doSomeSetUp. block ensure: [resource reset]].
+	
+	Copied over from SqueakInboxTalk's TalkInboxTestCase."
 
 	| home savedSender |
 	home := thisContext.
@@ -14,4 +16,4 @@ wrapTester: executeAroundBlock
 		home
 			push: nil;
 			jump].
-	wrappers addLast: savedSender
+	wrappers addLast: savedSender.

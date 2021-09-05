@@ -9,4 +9,4 @@ testRemove
 	self
 		assert: self monitor probes isEmpty;
 		assert: self monitor contents isEmptyOrNil;
-		deny: self isProbeInstalled.
+		deny: self isProbeActive.

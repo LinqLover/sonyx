@@ -1,0 +1,1 @@
+I am the superclass for all testers in the sonyx tests package. A tester is a component of a test case.

@@ -1,0 +1,1 @@
+I am a tester that supports assertions about played sounds. Internally, I install a SonyxMockSoundSystem.

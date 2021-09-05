@@ -1,0 +1,1 @@
+I am a spy wrapper around a SoundSystem. I can log any sounds when they are played.
