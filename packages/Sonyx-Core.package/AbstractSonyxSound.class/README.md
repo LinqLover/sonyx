@@ -1,0 +1,1 @@
+I am the abstract superclass for all sounds that are available in the sonyx sound API. My subclasses can be instantiated by the user in the expression of a SonyxProbe and then are played by a SonyxServer.

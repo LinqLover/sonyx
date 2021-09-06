@@ -1,4 +1,4 @@
 testing
-isProbeInstalled
+isProbeActive
 	 
 	^ self doesPlaySound: [self executeMethod]

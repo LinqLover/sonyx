@@ -1,5 +1,7 @@
 support
-switchProbeToTextEditor 
+switchProbeToTextEditor
+	 
+
 	^ self annotationTextMorph ifNil: [
-		self annotationMorph toggleEditorButtonClicked.
+		self annotationMorph toggleEditor.
 		self annotationTextMorph].

@@ -1,0 +1,1 @@
+I am a specialization of the simulator (meta-interpreter) for Squeak that is tuned to denote certain events at bytecode level by means of sound.

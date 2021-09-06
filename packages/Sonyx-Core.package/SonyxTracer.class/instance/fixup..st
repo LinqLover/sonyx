@@ -1,4 +1,4 @@
 fixup
 fixup: aggressive
 	 
-	self probes do: [:probe | probe fixup: aggressive]
+	self probes do: [:probe | probe fixup: aggressive].

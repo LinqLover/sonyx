@@ -6,7 +6,7 @@ installProbeFor: substring
 		setClass: self methodClass selector: self methodSelector;
 		yourself.
 	self wrapTester: [:block | | window |
-		window := browser buildWith: ToolBuilder default. "store in receiver to protect #codeTextMorph against GC"
+		window := browser buildWith: ToolBuilder default. "store into context to protect #codeTextMorph against GC"
 		block value].
 	
 	[browser codeTextMorph find]

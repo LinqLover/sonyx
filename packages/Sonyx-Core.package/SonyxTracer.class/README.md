@@ -1,0 +1,1 @@
+I am reponsible for activating SoundProbes while executing a method - I am activated every time an Babylonian-instrumented source code snippet is passed. I also contain a lookup that maps Babylonian-internal annotation IDs to SonyxProbes which is necessary because BPAnnotations do not have a guaranteed lifespan.

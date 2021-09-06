@@ -5,7 +5,7 @@
 	"classvars" : [
 		"Current",
 		"LastError" ],
-	"commentStamp" : "",
+	"commentStamp" : "ct 9/5/2021 01:16",
 	"instvars" : [
 		"isActive",
 		"probes" ],

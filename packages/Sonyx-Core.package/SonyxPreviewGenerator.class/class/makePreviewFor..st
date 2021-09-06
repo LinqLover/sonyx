@@ -1,4 +1,4 @@
-as yet unclassified
+generating
 makePreviewFor: expression
 	 
 	^ self new

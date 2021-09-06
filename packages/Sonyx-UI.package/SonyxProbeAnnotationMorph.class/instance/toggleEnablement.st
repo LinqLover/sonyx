@@ -1,4 +1,4 @@
-accessing
+actions
 toggleEnablement
 	 
-	self annotation enabled: self annotation enabled not
+	self annotation enabled: self annotation enabled not.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 borderWidthForBlock: aBlock
 	 
 	aBlock isArtefact ifTrue: [^ 1].

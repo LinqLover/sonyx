@@ -1,4 +1,4 @@
 updating
 stepTimeIn: aSystemWindow
 	 
-	^ 100
+	^ self stepTime

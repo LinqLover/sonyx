@@ -1,12 +1,16 @@
 playing
-waitDuring: aBlock
+waitDuring: playBlock
 	 
+	"Evaluate the playBlock asynchronously and wait until we are unlocked via #isPlaying:."
+
 	[Processor yield.
-	aBlock ifCurtailed: [self stopPlaying]] forkAt: Processor activePriority.
+	playBlock ifCurtailed: [self stopPlaying]]
+		forkAt: Processor activePriority.
 	
 	[1 second wait.
 	SonyxServer isSteady ifFalse: [
 		"was interrupted"
-		semaphore terminateProcess]] forkAt: Processor activePriority.
+		semaphore terminateProcess]]
+			forkAt: Processor activePriority.
 	
 	semaphore wait.

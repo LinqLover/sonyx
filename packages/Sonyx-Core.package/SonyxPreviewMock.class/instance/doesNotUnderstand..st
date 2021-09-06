@@ -1,4 +1,4 @@
-as yet unclassified
+system primitives
 doesNotUnderstand: aMessage
 	 
 	(aMessage selector = #perform: and: [(aMessage arguments at: 1 ifAbsent: [nil]) = #class] and: [thisContext home sender selector = #updateStyler:requestor:]) ifTrue: [

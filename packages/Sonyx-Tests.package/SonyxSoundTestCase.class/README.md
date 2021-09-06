@@ -1,0 +1,1 @@
+I am the abstract superclass for all sound-related tests for sonyx. I provide access to the SonyxTesters and mocking entities.

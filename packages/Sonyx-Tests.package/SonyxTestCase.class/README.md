@@ -1,0 +1,1 @@
+I am the superclass for all sonyx tests. I provide some general testing utilities some of which have been copied over from SqueakInboxTalk's TalkTestCase.

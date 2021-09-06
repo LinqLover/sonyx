@@ -3,5 +3,5 @@ prehear
 	 
 	| preview |
 	preview := self makePreviewSound.
-	self ifNil: [^ self inform: 'Variable expression, cannot play demo'].
-	[SonyxServer current play: preview for: self] fork.
+	preview ifNil: [^ self inform: 'Variable expression, cannot play demo'].
+	SonyxServer current play: preview for: self.

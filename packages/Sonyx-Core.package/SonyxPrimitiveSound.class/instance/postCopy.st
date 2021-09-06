@@ -1,5 +1,6 @@
 copying
 postCopy
-
+	 
 	super postCopy.
-	self copySounds
+	self copySounds.
+	sonyxSound := sonyxSound copy.

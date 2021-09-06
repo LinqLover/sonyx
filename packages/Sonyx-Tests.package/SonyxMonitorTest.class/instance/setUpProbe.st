@@ -8,6 +8,6 @@ setUpProbe
 	self
 		switchProbeToTextEditor;
 		acceptProbeText: self probeText.
-	self assert: self isProbeInstalled.
+	self assert: self isProbeActive.
 	
 	self monitor step.

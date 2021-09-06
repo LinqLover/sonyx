@@ -10,7 +10,11 @@ addIssueWithTitle: titleString body: bodyString
 				at: #title put: titleString;
 				at: #body put: bodyString;
 				yourself.
-			client httpPost: self baseUrl , '/issues' content: args asJsonString type: 'application/vnd.github.v3+json' do: [:req | req headerAt: 'Authorization' put: 'token ', client token]]
+			client
+				httpPost: self baseUrl , '/issues'
+				content: args asJsonString
+				type: self acceptedContentType
+				do: [:request | self authorizeRequest: request forClient: client]]
 		ifError: [:error | ^ error signal].
 	
 	^ self parseIssue: result

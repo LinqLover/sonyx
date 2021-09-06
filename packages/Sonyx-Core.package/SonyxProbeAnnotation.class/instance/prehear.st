@@ -1,4 +1,4 @@
 prehearing
 prehear
 	 
-	self actualProbe prehear
+	^ self actualProbe prehear

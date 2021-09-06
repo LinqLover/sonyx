@@ -2,5 +2,5 @@ support
 switchProbeToSandblocksEditor
 	 
 	^ self annotationSandblocksEditor ifNil: [
-		self annotationMorph toggleEditorButtonClicked.
+		self annotationMorph toggleEditor.
 		self annotationSandblocksEditor].

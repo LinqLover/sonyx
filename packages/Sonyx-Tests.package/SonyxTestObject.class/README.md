@@ -1,0 +1,1 @@
+I am a test object that's sole purpose is it to be attached with sound probes by the tests.

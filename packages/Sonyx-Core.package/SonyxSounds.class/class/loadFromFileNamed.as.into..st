@@ -11,6 +11,6 @@ loadFromFileNamed: aFilePath as: selector into: categoryPrefix
 	
 	self class
 		compile: (contentsTemplate format: {selector withFirstCharacterDownshifted. (MenuIcons base64ContentsOfFileNamed: aFilePath)})
-		classified: categoryPrefix , (categoryPrefix ifNotEmpty: ['-'] ifEmpty: ['']) , 'contents';
+			classified: categoryPrefix , (categoryPrefix ifNotEmpty: ['-'] ifEmpty: ['']) , 'contents';
 		compile: (accessorTemplate format: {selector capitalized. selector withFirstCharacterDownshifted})
-		classified: categoryPrefix , (categoryPrefix ifNotEmpty: ['-'] ifEmpty: ['']) , 'accessing'.
+			classified: categoryPrefix , (categoryPrefix ifNotEmpty: ['-'] ifEmpty: ['']) , 'accessing'.

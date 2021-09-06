@@ -1,0 +1,3 @@
+I am a mock object that is used by a SonyxPreviewGenerator to substitute unknown objects in an expression. I silently ignore random requests but try to resolve them with random data when possible. This works for simple expressions but sometimes also fails. See comment of SonyxPreviewGenerator for more details.
+
+BEWARE! I (ab)use dynamic forwarding to handle ALL requests unconditionally without raising an error, so effectively I am a black hole that absorbs any message. Be carefully when playing around with me, I am able to erade all your tools.

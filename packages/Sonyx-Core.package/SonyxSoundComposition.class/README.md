@@ -1,0 +1,1 @@
+I am the - stil abstract - superclass for all composed sounds. Sounds can be nested arbitrarily - this is a composite structure.

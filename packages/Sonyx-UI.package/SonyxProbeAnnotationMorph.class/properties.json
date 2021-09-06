@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ct 9/5/2021 02:30",
 	"instvars" : [
-		"expressionFieldMorph",
 		"widgetsMorph",
-		"expressionEditorMorph" ],
+		"sandblocksEditor",
+		"textEditor" ],
 	"name" : "SonyxProbeAnnotationMorph",
 	"pools" : [
 		 ],

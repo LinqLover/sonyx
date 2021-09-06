@@ -1,4 +1,4 @@
 running
 tearDown
-
-	wrappers do: [:wrapper | thisContext home insertSender: wrapper]
+	 
+	wrappers do: [:wrapper | thisContext home insertSender: wrapper].

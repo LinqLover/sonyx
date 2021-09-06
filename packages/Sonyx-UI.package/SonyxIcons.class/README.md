@@ -1,0 +1,1 @@
+Similarly to BPIcons, I contain some image resources for the UI.
