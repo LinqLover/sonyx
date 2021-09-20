@@ -4,14 +4,14 @@
 [![Coverage Status](https://coveralls.io/repos/github/LinqLover/sonyx/badge.svg?branch=prototyping)](https://coveralls.io/github/LinqLover/sonyx?branch=prototyping)
 [![Release](https://github.com/LinqLover/sonyx/actions/workflows/release.yml/badge.svg)](https://github.com/LinqLover/sonyx/actions/workflows/release.yml)
 
-**sonyx** (***S***ound-based t***O***ols for u***N***derstanding of software s***Y***stems through e***X***ploration) is a toolkit to explore software systems through sonification in [Squeak/Smaltalk](https://squeak.org).
+**sonyx** (***S***ound-based t***O***ols for u***N***derstanding of software s***Y***stems through e***X***ploration) is a toolkit for exploring software systems through sonification in [Squeak/Smaltalk](https://squeak.org).
 It has initially been developed within the course ["Sonic Thinking - Methods of Working with Sound"](https://hpi.de/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ma/lehrveranstaltung/sose-21-3286-sonic-thinking-seminar-_-methods-of-working-with-sound.html) offered by Julia von Thienen from the [neurodesign group @ HPI](https://hpi.de/neurodesign/home.html).
 For more information, please refer to [theoretical background](#theoretical-background-literature--acknowledgments).
 
-The main idea of sonyx is to empower developers to understand (large) software systems by listening to particular aspects of interest.
-To do this, developers can create *sound probes* on the fly for any expression in any method in the system.
+The main idea of sonyx is to empower developers to understand (large-scale) software systems by listening to particular interesting aspects of them.
+To do this, developers can create *sound probes* on-the-fly for any expression in any method in the system.
 Whenever this expression is reached during the system execution, a user-defined sound is played.
-Developers can customize and combine these sounds or even design them to dynamically reflect the state or result of the expression.
+Developers can customize and combine these sounds or even configure them to dynamically reflect the state or result of the expression.
 
 This project is based on [Babylonian Programming/Smalltalk](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/) and [Sandblocks](https://github.com/tom95/sandblocks).
 
@@ -54,7 +54,7 @@ If you wish, you can also set up sonyx yourself:
 
 If you are new to Squeak/Smalltalk, I recommend you learn a few basics about it before exploring this project.
 Squeak is a programming environment that is quite different from many other contemporary solutions.
-Some aspects of its main philosophy are that everything is an object, including the environment, the compiler, and even all tools in the system, as well as that the user can always interact with or modify all these objects.
+Some aspects of its main philosophy are that everything is an object, including the environment, the compiler, and even all tools in the system, as well as that the user can always interact with or modify all of these objects.
 As a consequence, you will need to have a basic knowledge of the Squeak tools in order to understand this project or to browse its implementation.
 
 The book **[Squeak by Example](https://github.com/hpi-swa-lab/SqueakByExample-english#readme)** provides a pretty good introduction to Squeak (for this project, you should refer to the Trunk version/`SBE-Trunk.pdf` from the latest preprint).
@@ -75,7 +75,7 @@ To customize the sound, type into the probe annotation or click on any part of i
 For instance, click on the default squeakSound (`#horn`) to replace it with another sound (maybe `#croak`).
 Afterward, press <kbd>Cmd</kbd> + <kbd>s</kbd> to save the sound probe and trigger it again.
 
-You can **add further parameters to the sound** by selecting the entire `SonyxSound` expression with a click and pressing <kbd>Ctrl</kbd> + <kbd>i</kbd>.
+You can **add further parameters to the sound** by selecting the entire `SonyxSound` expression with a click and pressing <kbd>Ctrl</kbd> + <kbd>i</kbd> (insert).
 Click into the `msg` field to choose a parameter key (for instance, `balance:`).
 In the next field, you can enter a value for this parameter (e.g., `0`).
 Save the probe again and trigger the sound to listen to the difference.
@@ -97,13 +97,13 @@ In the event that you should stumble into any problems, next to contacting me an
 - If the sound monitor highlights no longer playing sounds, try the fixup options from the "fixup (in case of trouble)" button on the top.
 - If you cannot hear any sounds, try to stop all runnings sounds first.
   If this does not help, open the sonyx monitor, press the fixup button, and choose "Forget all errors".
-- If any other terrible things have happened that stop you from using sonyx as inspected, just close Squeak without saving the changes and try your luck again.
+- If any other terrible things have happened that stop you from using sonyx as expected, just close Squeak without saving the changes and try your luck again.
 
 In any case, if you find any defect that you are able to reproduce, I will appreciate your bug report.
 
 ## Architecture
 
-This package structure of this project is organized as follows:
+The package structure of this project is organized as follows:
 
 <table>
 	<thead>
@@ -116,7 +116,7 @@ This package structure of this project is organized as follows:
 		<tr>
 			<td><a href="packages/BaselineOfSonyx.package/">BaselineOfSonyx</a></td>
 			<td>Package metadata.
-			Contains scripts to set up the deploy image and fill it with welcome contents.</td>
+			Contains scripts to set up the deploy image and fill it with an initial welcome text.</td>
 		</tr>
 		<tr>
 			<td><a href="packages/Sonyx-Core.package/">Sonyx-Core</a></td>
@@ -153,7 +153,7 @@ Please also refer to [UPSTREAM.md](./UPSTREAM.md) for a list of further implemen
 This is only a prototype, and there are still plenty of other ideas that have not yet been tried out.
 You can find a selection of small and big ideas in the [project board](https://github.com/LinqLover/sonyx/projects/1).
 
-Some known limitations to date are:
+Some known technical limitations to date are:
 
 - Limited mouse controls of probe expressions. While intended to be completely configurable as GUI, nested sounds and additional parameters still require keyboard control at the moment.
 - No compatibility with vanilla Babylonian - inserting examples in a method will play unexpected sounds.
