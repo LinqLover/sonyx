@@ -2,10 +2,10 @@
 
 ## Research questions
 
-- **Overarching hypothesis:** Programming effectiveness and experience can be improved with the help of configurable auditory displays.
-  - **Concrete hypothesis:** Proficient Squeak/Smalltalk programmers can solve certain programming tasks in a more effective and more satisfied way when using the *sonyx* prototype.
+- **Overarching hypothesis:** When programmers receive additional sonic feedback about runtime state and behavior from their interactive programming environment, their effectiveness and programming experience increase.
+  - **Concrete hypothesis:** When proficient Squeak/Smalltalk programmers use the *sonyx* prototype, they become more effective and satisfied while solving given programming tasks.
   - **Rationale:**
-    - By extending the interface of the programming environment with auditory displays, the maximum output bandwidth is increased and programmers are empowered to process information streams from multiple sources simultaneously, monitor background processes, and gain alternative perspectives to the subjects of their problems.
+    - By extending the interface of the programming environment with auditory displays, the maximum output bandwidth is increased and programmers are empowered to harness their auditory processing capacities, handle information streams from multiple sources simultaneously, monitor background processes, and gain alternative perspectives to the subjects of their problems.
     - General programming expertise is required to rule out that users struggle with fundamental programming concepts rather than focusing on effective task-solving. As the sonyx prototype is implemented in the Squeak/Smalltalk programming environment, programmers need to know this environment.
 - **Explorative questions:**
   - How useful are auditory displays to support programmers in common programming tasks?
@@ -13,18 +13,18 @@
   - What are the strengths and limitations of auditory displays in programming?
   - How usable, learnable, and convenient is the sonyx prototype and how could it be improved?
 - **No goals of the study:** <a name="nogoals"></a>
-  - Run a quantitative study (out of scope).
   - Establish the sonyx prototype as an alternative to the conventional Squeak/Smalltalk toolset. The current prototype is designed to extend rather than to replace the base system, and it has an insufficient extent for covering most major programming workflows.
+  - Prove that auditory displays are a more promising output interface in programming environments than visual displays. Instead, the extension of a visual IDE with auditory displays is examined.
 
 ## Preliminary considerations
 
 - **General study format:**
-  - In the study, $n$ participants are asked to perform $k$ programming-related tasks ($n = 3, k \in [3, 8]$).
+  - In the study, $n$ participants are asked to perform $k$ programming-related tasks ($k = 3, n \in [5, 7]$).
   - In the **experimental condition,** participants are asked to perform given tasks with the help of sonyx. In the **control condition,** they are restricted to using the conventional Squeak/Smalltalk toolset.
   - The study is designed as a **within-subjects** user study with multiple tasks to minimize influence of confounding variables. The order of tasks is randomized.
   - The study is run in separate **one-to-one sessions.** Every participant receives comparable individual guidance by the study manager to ensure that participants approach the task within the intended frame (see [below](#taskdesign)).
 - **Design of testable programming tasks:** <a name="taskdesign"></a>
-  - Tasks need to be chosen realistically to represent common programmers‘ workloads as precisely as possible. Because of the small extent of the current prototype (see [above](#nogoals)), tasks need to be defined with a fine granularity to maximize the coverage of single solution steps by the existing prototype while ensuring comparable solution strategies that are performed by all participants.
+  - Tasks need to be chosen as representative as possible for common programmers‘ workloads. Because of the small extent of the current prototype (see [above](#nogoals)), tasks need to be defined with a fine granularity to maximize the coverage of single solution steps by the existing prototype while ensuring comparable solution strategies that are performed by all participants.
   - To eliminate irrelevant independent variables, the overarching process for solving a programming problem is broken down into single steps (from reproducing a bug over tracing it down to a defect up to deciding on an appropriate fix). For each study task, only a single step for a given problem is observed in an experiment. In particular, the „zeroth solution step“ of choosing the right tool for a job is excluded to eliminate another unintended independent variable. This also contributes to shorten the temporal requirements to each participant.
     - *TODO RESEARCH: find related work on interaction models for programming problem solving*
   - Following prior insights about the prototype, the programming tasks will focus on the area of *program comprehension* and *defect identification*.
@@ -62,7 +62,7 @@
     - success rate (grading scheme): To what extent did the participant achieve the expected, qualitative solution?
       - For each task, a time limit is specified. – *TODO*
       - To avoid speculative expense and to mitigate the absence of a pre-pilot study, a horizon of expectation/grading scheme is not created in advance. Instead, the raw results of every participant are recorded and quantified after all results are available.
-      - quantification: interval scale
+      - quantification: ordinal scale
     - time to success (chronometer): How much time did the participant need to solve the task (success is detected by study manager)?
       - quantification: ratio scale
   - Programming experience (questionnaire):
@@ -85,7 +85,7 @@
 
 ## Procedure script
 
-### 1. Study introduction
+### 1. Study introduction [10 min]
 
 1. *The goals of this study are … (see [above](#research-questions)). We would like to ask you to perform some tasks in Squeak, monitor you while working with them, and ask you some questions afterwards. Please note that perhaps not all tasks are solvable. This will take about <var>x</var> hours. As a compensation, you will receive a coupon after that.*
 2. Test against inclusion criteria
@@ -93,7 +93,7 @@
 4. Initial question: *How promising would you deem the idea of using sounds in programming?* (<abbr title="4-point Likert scale">4PL</abbr>: very hopeless, rather hopeless, rather promising, very promising)
    - *TODO: create google forms*
 
-### 2. Introduction to the sonyx prototype
+### 2. Introduction to the sonyx prototype [15 min]
 
 - theoretical background
 - demo with theoretical example
@@ -111,15 +111,15 @@
   - run the sound in the background
   - `SonyxSoundSequence`
 
-### 3. Task processing
+### 3. Task processing [3x]
 
 for each task (see [below](#tasks)):
 
-- short introduction into the task
+- short introduction into the task [5 min]
   - define problem and goal
   - describe the intended methodic starting point (i.e., *use Transcript logging* or *create sound probes for these variable*)
   - assure the tasks was understood
-- hand control to participant
+- hand control to participant [30 min]
   - turn camera off, keep screen share on
   - time-limited
   - *Say hello when you think you are done.*
@@ -127,13 +127,13 @@ for each task (see [below](#tasks)):
   - time until success/no success
   - different approaches tried/top-down vs bottom-up approach
   - final solution
-- retrospective task interview
+- retrospective task interview [5 min]
   - programming experience: *How much fun did you have performing the task/working with the provided tools?* (4PL: no fun at all, rather no fun, some fun, very much fun)
   - confidence about solution: *How confident do you feel about the correctness and quality of your solution?* (4PL: very unsure, rather unsure, rather sure, very sure)
   - *TODO QUESTION: is this a good idea before all tasks have been done?*
 - offer a short break
 
-### 4. Open discussion
+### 4. Open discussion [10 min]
 
 - open questions about the <u>approach</u>:
   - strengths/for which kind of problems is it useful?
@@ -145,7 +145,7 @@ for each task (see [below](#tasks)):
   - disadvantages: what are the largest drawbacks?
   - improvement potential: how can the tool be made more convenient?
 
-### 5. Debriefing interview
+### 5. Debriefing interview [10 min]
 
 - questionnaire:
   - *note: moved to the end of the study to avoid expectation bias*
@@ -172,7 +172,7 @@ for each task (see [below](#tasks)):
       - browser integration, sound configuration, sound watcher
     - *How hard did you find it to get started with the sonyx prototype?* (4PL: very hard, rather hard, rather easy, very easy)
     - *How often would you use a fully developed tool for this approach in your favorite IDE (assuming you were a full-time programmer)?* (5PL: never, at least once per month, at least once per week, at least once per day, at least once per hour)
-  - *free text field for things you wanted to add* 
+  - *free text field for things you wanted to add*
 - further questions by participants
   - wanna see a bonus? -> `SonyxDemoContext`
 
@@ -315,6 +315,12 @@ for each task (see [below](#tasks)):
   - not tested: creativity of finding approach for problem solving (control)
   - no adequate runtime visualization alternative
 
+## Literature
+
+- Andrew J. Ko, Thomas D. LaToza, and Margaret M. Burnett. *[A practical guide to controlled experiments of software engineering tools with human participants.](https://dl.acm.org/doi/10.1007/s10664-013-9279-3)* In *Empirical Software Engineering*, volume 20, number 1, 2015 (pp. 110-141).
+- Patrick Rein and Robert Hirschfeld. *Pre-Study Report on a Controlled Experiment on the Moderation Effect of Task Complexity on the Effects of Exploratory-style Live Programming Tools.* Hasso Plattner Institute, 12 pages, not yet published.
+- \<see [previous slides](https://github.com/LinqLover/sonyx/wiki/Material#project-slides-for-the-sonic-thinking-seminar)\>
+
 ## Preparation checklist
 
 - [ ] Research (deferred)
@@ -324,11 +330,11 @@ for each task (see [below](#tasks)):
   - [ ] write recruitment announcement
   - [ ] create Google Forms questionnaire
 - [ ] Planning
-  - [ ] create statistical hypotheses (?)
-  - [ ] define time limits for tasks
-  - [ ] make total time estimation
+  - [ ] create statistical hypotheses (deferred)
+  - [ ] define time limits for tasks – 30 min each *– TODO discuss*
+  - [ ] make total time estimation – 2:45 *– TODO discuss*
 - [ ] Demo
-  - [ ] collect ideas for training exercise
+  - [x] collect ideas for training exercise
   - [ ] create infographic/cheat sheet for Sonyx
   - [ ] create/find cheat sheet for regex
 - [ ] Image
@@ -341,7 +347,11 @@ for each task (see [below](#tasks)):
   - [ ] for task 2: improve `SonyxDemoStream` API or replace it by a `SonyxDemoSequence`?
   - [ ] for task 3: implement obfuscated iterative merge sort with assertions
   - [ ] for task 3: create examples for `SonyxSound[Sequence]`
+  - [ ] create RVV visualization
 - [ ] Tool improvements
   - [ ] improve sound API – simpler delay, shorter default duration
   - [ ] sandblocks: remove messages end, add message send
+- [ ] Sessions (after recruitment is done)
+  - [ ] assign numbers
+  - [ ] plan timeslots
 
