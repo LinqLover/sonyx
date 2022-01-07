@@ -1,9 +1,7 @@
 requests
 removeIssue: number
-	 
-	"<bpSonyxAnnotation id: 2283031 expression: [SonyxSound new
-		squeakSound: #coyote;
-		yourself]>" self"</bpSonyxAnnotation>"
+
+	self
 		clientDo: [:client |
 			client
 				httpDelete: self baseUrl , '/issues/' , number
