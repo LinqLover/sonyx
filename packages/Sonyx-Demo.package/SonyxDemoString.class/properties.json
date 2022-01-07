@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ct 9/5/2021 15:47",
+	"commentStamp" : "ct 1/7/2022 02:18",
 	"instvars" : [
 		 ],
-	"name" : "SonyxDemoStream",
+	"name" : "SonyxDemoString",
 	"pools" : [
 		 ],
-	"super" : "ReadStream",
-	"type" : "normal" }
+	"super" : "ByteString",
+	"type" : "bytes" }
