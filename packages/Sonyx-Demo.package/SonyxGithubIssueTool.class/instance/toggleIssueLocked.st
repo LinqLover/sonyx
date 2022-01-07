@@ -1,4 +1,4 @@
 actions
 toggleIssueLocked
-	 
-	self do: [self basicToggleIssueLocked]
+
+	self basicToggleIssueLocked.

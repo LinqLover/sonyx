@@ -1,4 +1,4 @@
 actions
 renameIssue
-	 
-	self do: [self basicRenameIssue]
+
+	self basicRenameIssue.

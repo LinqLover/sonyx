@@ -1,4 +1,4 @@
 actions
 removeIssue
-	 
-	self do: [self basicRemoveIssue]
+
+	self basicRemoveIssue.
