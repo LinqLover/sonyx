@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"defaultLabelText" : "ct 1/4/2022 23:28",
+		"isAbstract" : "ct 1/5/2022 14:48",
+		"lineColor" : "ct 1/5/2022 14:40",
+		"lineWidth" : "lp 8/4/2021 11:45",
+		"visualizationName" : "ct 1/4/2022 23:27" },
+	"instance" : {
+		"baseColor" : "ct 1/5/2022 13:59",
+		"createGraph" : "ct 1/5/2022 14:00",
+		"defaultMaxValue" : "ct 1/5/2022 14:37",
+		"editableProperties" : "ct 1/6/2022 16:38",
+		"initialize" : "ct 1/5/2022 14:49",
+		"maxValue" : "ct 1/5/2022 14:25",
+		"maxValue:" : "ct 1/5/2022 15:00",
+		"ratio" : "ct 1/5/2022 15:17" } }

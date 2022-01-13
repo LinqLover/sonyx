@@ -1,0 +1,4 @@
+initialization
+defaultMaxValue
+
+	^ 10

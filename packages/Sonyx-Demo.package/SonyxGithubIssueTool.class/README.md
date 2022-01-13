@@ -1,1 +1,0 @@
-I provide a small UI on top of a SonyxGithubIssueServer.

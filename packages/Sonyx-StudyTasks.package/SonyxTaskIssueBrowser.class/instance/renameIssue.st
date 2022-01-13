@@ -1,0 +1,4 @@
+actions
+renameIssue
+
+	self basicRenameIssue.

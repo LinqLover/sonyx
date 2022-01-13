@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"canHandle:" : "ct 1/5/2022 21:56",
+		"visualizationName" : "ct 1/5/2022 21:56" },
+	"instance" : {
+		"allVisualizations" : "ct 1/5/2022 21:54",
+		"createGraph" : "ct 1/5/2022 23:55",
+		"dataInWindow" : "ct 1/5/2022 21:59",
+		"dataValue" : "ct 1/5/2022 21:32",
+		"defaultPinVisualizationClass" : "ct 1/6/2022 16:55",
+		"editPinVisualizationClass" : "ct 1/6/2022 16:47",
+		"editProperty:" : "ct 1/6/2022 16:49",
+		"editableProperties" : "ct 1/6/2022 16:54",
+		"initialize" : "ct 1/6/2022 16:56",
+		"nameForProperty:" : "ct 1/6/2022 16:50",
+		"newVisualizationFor:" : "ct 1/12/2022 20:46",
+		"pinVisualizationClass" : "ct 1/6/2022 16:56",
+		"pinVisualizationClass:" : "ct 1/6/2022 16:56",
+		"stringForProperty:value:" : "ct 1/6/2022 16:51",
+		"usableVisualizations" : "ct 1/5/2022 21:54" } }

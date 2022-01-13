@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Study-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"transcriptJam" ],
+	"name" : "SonyxStudy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

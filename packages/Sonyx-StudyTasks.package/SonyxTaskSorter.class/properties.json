@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-StudyTasks-Sorting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxTaskSorter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

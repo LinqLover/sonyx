@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"canHandle:" : "ct 1/5/2022 21:55",
+		"isAbstract" : "ct 1/5/2022 21:55" },
+	"instance" : {
+		"addYellowButtonMenuItemsTo:event:" : "ct 1/6/2022 16:43",
+		"createGraph" : "ct 1/5/2022 21:34",
+		"editProperty:" : "ct 1/6/2022 16:48",
+		"editableProperties" : "ct 1/6/2022 16:39",
+		"forceUpdate" : "ct 1/5/2022 23:36",
+		"nameForProperty:" : "ct 1/6/2022 16:44",
+		"stringForProperty:value:" : "ct 1/6/2022 16:43",
+		"updateVisualization" : "ct 1/7/2022 02:01",
+		"wantsYellowButtonMenu" : "ct 1/5/2022 22:01",
+		"watch" : "ct 1/5/2022 23:35",
+		"yellowButtonActivity:" : "ct 1/6/2022 00:21" } }

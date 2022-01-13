@@ -1,0 +1,15 @@
+{
+	"category" : "Sonyx-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 1/12/2022 21:40",
+	"instvars" : [
+		"server",
+		"selectedIssue" ],
+	"name" : "SonyxDemoIssueBrowser",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }
