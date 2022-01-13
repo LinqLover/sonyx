@@ -1,7 +1,10 @@
 {
 	"class" : {
+		"allTypes" : "ct 1/13/2022 01:53",
+		"backupStudyTasks" : "ct 1/13/2022 01:56",
 		"checkPermissionForBreakPointOr:" : "ct 1/6/2022 21:05",
 		"checkPermissionForMessageSetOr:" : "ct 1/6/2022 21:06",
+		"createButton" : "ct 1/13/2022 02:01",
 		"current" : "ct 1/6/2022 20:07",
 		"current:" : "ct 1/6/2022 20:14",
 		"forType:" : "ct 1/6/2022 20:13",
@@ -11,7 +14,10 @@
 		"isRunning" : "ct 1/6/2022 20:53",
 		"isSonyx" : "ct 1/6/2022 20:09",
 		"newForType:" : "ct 1/6/2022 20:13",
+		"resetStudyTasks" : "ct 1/13/2022 01:56",
+		"setUp" : "ct 1/13/2022 02:04",
 		"stop" : "ct 1/6/2022 20:23",
+		"switchSonyxStudy" : "ct 1/13/2022 02:03",
 		"switchToC" : "ct 1/7/2022 02:32",
 		"switchToRVV" : "ct 1/6/2022 20:22",
 		"switchToSonyx" : "ct 1/6/2022 20:23",
