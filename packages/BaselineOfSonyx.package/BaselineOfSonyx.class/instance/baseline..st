@@ -11,7 +11,7 @@ baseline: spec
 			package: 'IconsBase' with: [
 				spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'];
 			package: 'JSON' with: [spec repository: 'https://www.squeaksource.com/PostgresV3'];
-			package: 'RuntimeValueVisualization' with: [
+			baseline: 'RuntimeValueVisualization' with: [
 				spec
 					repository: 'github://LinqLover/live21-value-visualization:stream-sonyx/packages';
 					loads: #core];
@@ -40,7 +40,7 @@ baseline: spec
 				spec requires: #('Sonyx-UI')];
 			package: 'Sonyx-Study-RVV' with: [
 				spec requires: #('RuntimeValueVisualization')];
-			package: 'Sonyx-Study-Tasks' with: [
+			package: 'Sonyx-StudyTasks' with: [
 				spec requires: #('Sonyx-UI' 'Sonyx-Study-RVV' 'JSON')];
 			package: 'Sonyx-Study-Solutions' with: [
 				spec requires: #('Sonyx-StudyTasks')].
