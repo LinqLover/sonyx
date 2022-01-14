@@ -1,5 +1,6 @@
 features
 checkPermissionForBreakPointOr: cancelBlock
 
-	self isBreakPointAllowed ifTrue: [^ self].
-	self inform: 'Break points are disabled, find another approach'
+	self isBreakPointAllowed ifTrue: [^ nil].
+	self inform: 'Break points are disabled, find another approach'.
+	^ cancelBlock value
