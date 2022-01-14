@@ -4,7 +4,7 @@ browseMessageList: messageListOrBlock name: labelString autoSelect: autoSelectSt
 	"Create and schedule a MessageSet browser on the message list. If messageListOrBlock is a block, then evaluate it to get the message list."
 
 	| messageList |
-	SonyxStudy checkPermissionForMessageSetOr: [^ self].
+	SonyxStudyCondition checkPermissionForMessageSetOr: [^ self].
 	
 	messageList := messageListOrBlock isBlock
 		ifTrue: [ Cursor wait showWhile: messageListOrBlock ]

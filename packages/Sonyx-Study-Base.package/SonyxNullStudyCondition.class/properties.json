@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SonyxSonyxStudy",
+	"name" : "SonyxNullStudyCondition",
 	"pools" : [
 		 ],
-	"super" : "SonyxStudy",
+	"super" : "SonyxStudyCondition",
 	"type" : "normal" }

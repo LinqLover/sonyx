@@ -3,13 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Current",
-		"TasksSnapshot" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"transcriptJam" ],
-	"name" : "SonyxStudy",
+		 ],
+	"name" : "SonyxSonyxStudyCondition",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SonyxStudyCondition",
 	"type" : "normal" }

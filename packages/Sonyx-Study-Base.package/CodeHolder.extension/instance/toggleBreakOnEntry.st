@@ -4,7 +4,7 @@ toggleBreakOnEntry
 	"Install or uninstall a halt-on-entry breakpoint"
 
 	| selectedMethod |
-	SonyxStudy checkPermissionForBreakPointOr: [^ self].
+	SonyxStudyCondition checkPermissionForBreakPointOr: [^ self].
 	
 	self selectedClassOrMetaClass ifNil: [ ^self].
 	selectedMethod := self selectedClassOrMetaClass

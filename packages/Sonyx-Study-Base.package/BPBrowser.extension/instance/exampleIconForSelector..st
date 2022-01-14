@@ -8,8 +8,8 @@ exampleIconForSelector: selector
 	bpIcon := method bpExampleIcon.
 	rvvIcon := method rvvIcon.
 	
-	SonyxStudy isRVV ifTrue: [^ rvvIcon].
-	SonyxStudy isSonyx ifTrue: [^ bpIcon].
+	SonyxStudyCondition isRVV ifTrue: [^ rvvIcon].
+	SonyxStudyCondition isSonyx ifTrue: [^ bpIcon].
 	
 	(bpIcon notNil and: [rvvIcon notNil]) ifFalse: [^ bpIcon ifNil: [rvvIcon]].
 	^ BPIcons moreVerticalIcon
