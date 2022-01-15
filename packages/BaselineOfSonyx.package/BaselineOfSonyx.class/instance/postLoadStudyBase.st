@@ -1,0 +1,4 @@
+scripts
+postLoadStudyBase
+
+	SonyxStudyCondition setUp.

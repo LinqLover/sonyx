@@ -37,7 +37,9 @@ baseline: spec
 					requires: #('Sonyx-UI' 'JSON' 'SimulationStudio');
 					postLoadDoIt: #postLoadDemo];
 			package: 'Sonyx-Study-Base' with: [
-				spec requires: #('Sonyx-UI')];
+				spec
+					requires: #('Sonyx-UI');
+					postLoadDoIt: #postLoadStudyBase];
 			package: 'Sonyx-Study-RVV' with: [
 				spec requires: #('RuntimeValueVisualization')];
 			package: 'Sonyx-StudyTasks' with: [
