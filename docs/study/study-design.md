@@ -20,16 +20,15 @@
 
 - **General study format:**
   - In the study, $n$ participants are asked to perform $k$ programming-related tasks ($k = 3, n \in [5, 7]$).
-  - In the **experimental condition,** participants are asked to perform given tasks with the help of sonyx. In the **control condition,** they are restricted to using the conventional Squeak/Smalltalk toolset.
-  - The study is designed as a **within-subjects** user study with multiple tasks to minimize influence of confounding variables. The order of tasks is randomized.
+  - In the **experimental condition (sonyx),** participants are asked to perform given tasks with the help of sonyx. In the **first control condition (null condition),** they are restricted to using the conventional Squeak/Smalltalk toolset. In the **second control condition (RVV),** they are provided an equivalent tool to visualize runtime values [RVV].
+  - The study is designed as a **within-subjects** user study with multiple tasks to minimize influence of confounding variables. Each participant is assigned a randomized order of tasks and a randomized bijective mapping between tasks and conditions.
   - The study is run in separate **one-to-one sessions.** Every participant receives comparable individual guidance by the study manager to ensure that participants approach the task within the intended frame (see [below](#taskdesign)).
 - **Design of testable programming tasks:** <a name="taskdesign"></a>
   - Tasks need to be chosen as representative as possible for common programmers‘ workloads. Because of the small extent of the current prototype (see [above](#nogoals)), tasks need to be defined with a fine granularity to maximize the coverage of single solution steps by the existing prototype while ensuring comparable solution strategies that are performed by all participants.
   - To eliminate irrelevant independent variables, the overarching process for solving a programming problem is broken down into single steps (from reproducing a bug over tracing it down to a defect up to deciding on an appropriate fix). For each study task, only a single step for a given problem is observed in an experiment. In particular, the „zeroth solution step“ of choosing the right tool for a job is excluded to eliminate another unintended independent variable. This also contributes to shorten the temporal requirements to each participant.
-    - *TODO RESEARCH: find related work on interaction models for programming problem solving*
   - Following prior insights about the prototype, the programming tasks will focus on the area of *program comprehension* and *defect identification*.
 - **Organizational aspects:**
-  - The study sessions will be scheduled between ==2021-12-13== and ==2022-01-14==.
+  - The study sessions will be scheduled between ==2022-01-19== and ==2022-01-28==.
   - The study sessions are conducted via Zoom with the participants sharing their screens while performing their tasks in a provided Squeak/Smalltalk image.
   - To exclude language deficiencies, all study sessions are conducted in German language.
 
@@ -42,11 +41,10 @@
     - used in the last year if used longer than one year, otherwise used in the last 6 months
   - basic visual and acoustic abilities
 - environments for recruitment:
-  - SWT undergraduate students from summer semester 2021
-  - graduate students from seminars at SWA chair
-  - graduate students from seminars at Neuroscience group
-- compensation via gift coupons
-  - *TODO MGMT: how expensive coupons?*
+  - [x] SWT undergraduate students from summer semester 2021
+  - [x] graduate students from seminars at SWA chair
+  - [x] graduate students from seminars at Neuroscience group
+- financial compensation (30 €/participant)
 
 ## Analysis
 
@@ -60,7 +58,7 @@
 - **Dependent variables:** <a name="dependent-variables"></a>
   - Programming effectiveness:
     - success rate (grading scheme): To what extent did the participant achieve the expected, qualitative solution?
-      - For each task, a time limit is specified. – *TODO*
+      - For each task, a time limit is specified.
       - To avoid speculative expense and to mitigate the absence of a pre-pilot study, a horizon of expectation/grading scheme is not created in advance. Instead, the raw results of every participant are recorded and quantified after all results are available.
       - quantification: ordinal scale
     - time to success (chronometer): How much time did the participant need to solve the task (success is detected by study manager)?
@@ -76,49 +74,70 @@
 - **Statistical hypotheses:**
   - *TODO*
 
-*Data collection: Every participant is assigned a unique ID. To generate more honest answers, they are asked to turn off their screen while completing the questionnaires.* – *TODO QUESTION: is this „anonymization“ useful?*
+*Data collection: Every participant is assigned a unique ID. To generate more honest answers, they are asked to turn off their screen while completing the questionnaires.*
 
 ## Recruitment announcement
 
-| *TODO* |
-| ------ |
+Neurodesign:
+
+> Dear Sonic Thinkers/fellow students,
+>
+> do you like **Squeak** and are curious to discover a novel use case of sounds? Then I would like to invite you to **participate in a user study** that I am running in this semester to **evaluate the use of auditory displays in programming!**
+>
+> The study will take **approx. 2 – 3 hours** and we can offer you a compensation of **€ 30.** You are able to participate if you have fundamental programming proficiency and prior experience with Squeak/Smalltalk. If you are interested, please comment or DM me and we can find an individual time slot for a Zoom session. As it is challenging for me to find enough participants, I would also appreciate it if you could share this invitation with other possibly interested people (contact: christoph.thiede@student.hpi.de).
+>
+> Looking forward to see many of you in the study! :-)
+
+SWA:
+
+> Liebe Squeaker,
+>
+> im Rahmen eines Neurodesign-Projekts führe ich dieses Semester eine kleine User Study zum Thema **Auditory Displays in Programming** durch und suche dafür noch nach Teilnehmern. Das Ganze wird ca. **2 – 3 h** dauern und ihr habt die Gelegenheit, einen interessanten Prototypen kennenzulernen und euch **30 €** zu verdienen. Bei Interesse meldet euch bitte gerne bei mir (hier auf Slack oder christoph.thiede@student.hpi.de), dann können wir einen individuellen Termin für eine Zoom-Session vereinbaren. Da Teilnehmer rar sind, könnt ihr diese Einladung auch gerne an weitere Squeaker verteilen. ;-)
+>
+> Ich freue mich schon auf euch! :-)
+
+infoschleuder@hpi.de:
+
+> ### Teilnehmer gesucht: Vergütete Nutzerstudie zum Thema Auditory Displays in Squeak
+>
+> Liebe Mitstudierende,
+>
+>
+> ihr könnt Squeak und habt Lust, einen ungewöhnlichen Programmieransatz näher kennenzulernen? Dann möchte ich euch herzlich einladen, an meiner kleinen Nutzerstudie zum Thema **Auditory Displays in Programming** teilzunehmen! Diese wird ca. **2 – 3 h** dauern und über Zoom stattfinden, als kleines Dankeschön erhaltet ihr außerdem **30 €.** Bei Interesse meldet euch einfach bei mir, dann können wir einen individuellen Termin vereinbaren. Über eure Teilnahme würde ich mich sehr freuen, um so ein aussagekräftiges Studienergebnis zu erzielen. :-)
+>
+> Wir sehen uns!
+> Christoph
 
 ## Procedure script
 
 ### 1. Study introduction [10 min]
 
-1. *The goals of this study are … (see [above](#research-questions)). We would like to ask you to perform some tasks in Squeak, monitor you while working with them, and ask you some questions afterwards. Please note that perhaps not all tasks are solvable. This will take about <var>x</var> hours. As a compensation, you will receive a coupon after that.*
+1. *The goals of this study are … (see [above](#research-questions)). We would like to ask you to perform some tasks in Squeak – with our prototype as well as with different tools for comparison –, monitor you while working with them, and ask you some questions in-between and afterwards. Please note that perhaps not all tasks are solvable. This will take about <var>3</var> hours. As a compensation, you will receive <var>30 €</var>.*
 2. Test against inclusion criteria
 3. Informed consent: *Would you like to participate in this study?*
-4. Initial question: *How promising would you deem the idea of using sounds in programming?* (<abbr title="4-point Likert scale">4PL</abbr>: very hopeless, rather hopeless, rather promising, very promising)
+4. Initial question (questionnaire): *From your first impression, how promising would you deem the idea of using sounds in programming?* (<abbr title="4-point Likert scale">4PL</abbr>: very hopeless, rather hopeless, rather promising, very promising)
    - *TODO: create google forms*
 
-### 2. Introduction to the sonyx prototype [15 min]
+### 2. Prototype introductions and task processing [3x]
+
+for each [condition](#prototype-introductions)–[task](#tasks) association:
+
+#### 2.1 Prototype introduction
 
 - theoretical background
-- demo with theoretical example
-  - just a class with a few methods – *TODO: create theoretical example*
-  - how to add sound probes
-  - how to trigger/toggle/remove sound probes
-  - how to customize sounds
-  - sound monitor
+- demo with theoretical example (`SonyxSimpleDemo`)
 - provide something like an infographic for reference
-  - *TODO: create infographic*
-- training: let the participant try out sonyx in an unmonitored training exercise
-  - morphic events example (`SonyxDemoMorph`)
-  - sonify every mouse movement/click over the morph
-  - make the sound pitch dependent on the position of the event
-  - run the sound in the background
-  - `SonyxSoundSequence`
+- training:
+  - let the participant try out the prototype in an unmonitored training exercise (`SonyxTaskDemoMorph`)
+  - make sure they end with the correct solution
+  - *You can later refer to this demo again for reference purposes.*
 
-### 3. Task processing [3x]
-
-for each task (see [below](#tasks)):
+#### 2.2 Task processing
 
 - short introduction into the task [5 min]
   - define problem and goal
   - describe the intended methodic starting point (i.e., *use Transcript logging* or *create sound probes for these variable*)
-  - assure the tasks was understood
+  - assure the task was understood
 - hand control to participant [30 min]
   - turn camera off, keep screen share on
   - time-limited
@@ -127,13 +146,13 @@ for each task (see [below](#tasks)):
   - time until success/no success
   - different approaches tried/top-down vs bottom-up approach
   - final solution
-- retrospective task interview [5 min]
-  - programming experience: *How much fun did you have performing the task/working with the provided tools?* (4PL: no fun at all, rather no fun, some fun, very much fun)
-  - confidence about solution: *How confident do you feel about the correctness and quality of your solution?* (4PL: very unsure, rather unsure, rather sure, very sure)
-  - *TODO QUESTION: is this a good idea before all tasks have been done?*
+- retrospective task interview (questionnaire) [5 min]
+  1. confidence about solution: *How confident do you feel about the correctness [and quality] of your solution?* (4PL: very unsure, rather unsure, rather sure, very sure)
+  2. programming efficiency: *How efficient did your workflow while performing this task?* (4PL: not efficient at all, rather not efficient, rather efficient, very efficient)
+  3. programming experience: *How much fun did you have performing the task while working with the provided tools?* (4PL: no fun at all, rather no fun, some fun, very much fun)
 - offer a short break
 
-### 4. Open discussion [10 min]
+### 3. Open discussion (oral) [10 min]
 
 - open questions about the <u>approach</u>:
   - strengths/for which kind of problems is it useful?
@@ -145,7 +164,7 @@ for each task (see [below](#tasks)):
   - disadvantages: what are the largest drawbacks?
   - improvement potential: how can the tool be made more convenient?
 
-### 5. Debriefing interview [10 min]
+### 4. Debriefing interview [10 min]
 
 - questionnaire:
   - *note: moved to the end of the study to avoid expectation bias*
@@ -157,10 +176,10 @@ for each task (see [below](#tasks)):
       - number of completed semesters in IT programs (k-anonymized into $3\mathbb{N}$)
   - prior programming experience
     - ~~inspiration: https://www.cs.cmu.edu/~ckaestne/pdf/icpc12.pdf~~
-    - *How many years of programming experience do you have?* ($\mathbb{N}$)
-    - *How many years of experience with object-oriented programming do you have?* ($\mathbb{N}$)
-    - *How many years of experience with Squeak/Smalltalk do you have?* ($\mathbb{N}$)
-    - *In which of the following programming languages would you feel proficient to start a serious project?* (multiple choice)
+    - *How many years of programming experience do you have?* ($\mathbb{N} \cup \{\frac{1}{2}\}$)
+    - *How many years of experience with object-oriented programming do you have?* ($\mathbb{N} \cup \{\frac{1}{2}\}$)
+    - *How many years of experience with Squeak/Smalltalk do you have?* ($\mathbb{N} \cup \{\frac{1}{2}\}$)
+    - *In which of the following programming languages would you feel proficient to start a professional project?* (multiple choice)
       - Python, Java/Kotlin, JavaScript/TypeScript, C#, C/C++, Swift, Go, Rust, Ruby, Haskell, Squeak/Smalltalk, one other, multiple others
   - sonic affinity
     - *Would you consider yourself an auditory learner?* (<abbr title="5-point Likert scale">5PL</abbr>: definitely not, rather not, neutral, rather yes, definitely yes)
@@ -172,20 +191,58 @@ for each task (see [below](#tasks)):
       - browser integration, sound configuration, sound watcher
     - *How hard did you find it to get started with the sonyx prototype?* (4PL: very hard, rather hard, rather easy, very easy)
     - *How often would you use a fully developed tool for this approach in your favorite IDE (assuming you were a full-time programmer)?* (5PL: never, at least once per month, at least once per week, at least once per day, at least once per hour)
-  - *free text field for things you wanted to add*
+  - *Do you have any other thoughts you want to share with us (free text field)?*
 - further questions by participants
   - wanna see a bonus? -> `SonyxDemoContext`
+
+## Prototype Introductions
+
+### Sonyx prototype
+
+- theoretical background: make program behavior hearable, create sound probes in any method, customize them to listen to particular state
+- demo with theoretical example (`SonyxSimpleDemo`)
+  - how to add sound probes
+  - how to trigger/toggle/remove sound probes
+  - how to customize sounds
+  - sound monitor
+- provide something like an infographic for reference
+  - *TODO: create infographic*
+- training exercise (`SonyxTaskDemoMorph`):
+  - sonify every mouse movement/click over the morph
+  - make the sound pitch dependent on the position of the event
+  - run the sound in the background
+  - play one sound for each mouse button (`SonyxSoundSequence`)
+
+### RVV prototype
+
+- theoretical background: make program behavior visible, create watches in any method to see events or data
+- demo with theoretical example (`SonyxSimpleDemo`)
+  - how to add watches
+  - how to trigger/remove watches
+  - how to customize watches (event LED, ratio LED, LED strip)
+- provide something like an infographic for reference
+  - *TODO: create infographic*
+- training (`SonyxTaskDemoMorph`):
+  - visualize every mouse movement/click over the morph
+  - visualize every mouse button separately (LED strip)
+
+### Control condition
+
+No further introductions.
 
 ## Tasks
 
 ### 1. Inefficient client component (sonyx vs logging)
 
-**Context (`SonyxGithubIssueServer`):**
+**Context (`SonyxTaskIssueServer`):**
 
 - a server-client application for accessing GitHub issues
 - an interface that provides requests against the server component to the client component
 - a client component that accesses the interface and provides a UI
   - functionality: add, rename, lock/unlock, remove, edit content
+- challenges:
+  - Transcript is hard to use because of other logging sources
+  - Senders/implementors and breakpoints are not available
 
 **Problem:**
 
@@ -199,9 +256,11 @@ for each task (see [below](#tasks)):
 
 - if sonyx: *Start by creating a sound probe in the interface requests. Play around with the UI and debug a UI operation.*
 
-- if no sonyx: *Start by inserting `Transcript` sends in the interface requests. Play around with the UI and debug a UI operation.*
+- if rvv: *Start by creating a watch in the interface requests. Play around with the UI and debug a UI operation.*
 
-- info: There is the „debug button action“ feature.
+- if control: *Start by inserting `Transcript` sends in the interface requests. Play around with the UI and debug a UI operation.*
+
+- info: There is the „debug button action“ feature:
 
   <img src=".\study-design.assets\debugActionInvocation.png" style="zoom:50%;" />
 
@@ -219,72 +278,65 @@ for each task (see [below](#tasks)):
 - sonyx:
   - use the application and listen to request sounds
   - debug a UI operation and listen to request sounds (binary search)
-- no sonyx:
+- rvv:
+  - debug a UI operation and watch visualization
+- control condition:
   - debug a UI operation and watch log output
   - read code for a UI operation (bottom-up)
 
-***Pending preparation steps:***
-
-- add other different log sources to make transcript harder to read
-- make every step slow so you cannot feel complexity of a step
-- turn off senders/implementors and breakpoints
-- eliminate background processing in the client
-
 ### 2. Bottleneck in regular expression (sonyx vs simplification)
 
-**Context (`SonyxDemos class >> #demoRegex`):**
+**Context (`SonyxRegexTask`):**
 
 - a regular expression
 - a large set of strings to match
 
 **Problem:**
 
-- As we have noticed in a larger-scale application context, the regular expression is very slow.
+- *As we have noticed in a larger-scale application context, the regular expression is very slow.*
 
 **Task:**
 
-- *<u>Identify</u> one bottleneck in this regular expression and <u>resolve</u> it.*
-- if sonyx: *Use a given tool to sonify stream positions (`SonyxDemoStream`).*
+- *<u>Identify</u> one bottleneck in this regular expression and <u>resolve</u> it. <u>Explain</u> the bottleneck and your solution!*
+- if sonyx or rvv: *Use a given tool to sonify string accesses (`SonyxDemoString`).*
 - provide regex cheat sheet
 
 **Expected result:**
 
 - the regex engine has quadratic complexity for lookbehind expressions in the pattern
-- rewrite with a closure instead of the lookbehind
+- rewrite with a capture group instead of the lookbehind
 - alternatively, the regex engine could be optimized
 
 **Possible solution strategies:**
 
 - sonyx:
-  - sonify advancing of matching stream with variable pitch
+  - sonify advancing of matching string access positions with variable pitch
   - simplify regex/alter match strings/intuition
-- no sonyx:
+- rvv:
+  - visualize advancing of matching string access positions with variable color
+  - simplify regex/alter match strings/intuition
+- control condition:
   - simplify regex/alter match strings/intuition and measure time
   - debug the regex engine (complex)
-  - log stream positions (lots of data)
-
-***Pending preparation steps:***
-
-- improve `SonyxDemoStream` API or replace it by a `SonyxDemoSequence`?
+  - log string access positions (lots of data)
 
 ### 3. Understanding a sorting algorithm (sonyx vs reading)
 
-**Context (`SonyxDemos class >> #demoSort`):**
+**Context (`SonyxTaskSorter`):**
 
 - a sorting function
 - example invocation
 
 **Problem:**
 
-- The sorting method is undocumented and hard to understand.
+- *The sorting method is undocumented and hard to understand.*
 
 **Task:**
 
 - *<u>Understand</u> how the sorting algorithm works. <u>Decide</u> whether the sorting is stable, i.e., equal values are not reordered.*
-- the method already contains two assertions – *TODO: prepare*
-- if sonyx: *Add sound probes next to the assertions to listen to relevant parts of the collection.*
-  - tip: *Use `SonyxSoundSequence class >> #withAll:` and pass one `SonyxSound` for the value of every relevant collection element.*
-  - tip: *There are two other similar sound probe examples available.* – *TODO: prepare*
+- the method already contains an assertions
+- if sonyx: *Add sound probes to the method to listen to relevant parts of the collection.*
+- if rvv: *Add watcher to the method to visualize how the collection is sorted.* 
 - if no sonyx: *Read or debug the code to understand it.*
 
 **Expected result:**
@@ -296,16 +348,11 @@ for each task (see [below](#tasks)):
 
 - sonyx:
   - sonify current order of items
-- no sonyx:
+- rvv:
+  - visualize current order of items
+- control condition:
   - reading/theoretical debugging
   - debugging
-
-***Pending preparation steps:***
-
-- implement obfuscated iterative merge sort with assertions
-- improve sound API – simpler delay, shorter default duration
-- create similar examples for `SonyxSound[Sequence]`
-- spam `Transcript`
 
 ## Threats to validity
 
@@ -319,6 +366,8 @@ for each task (see [below](#tasks)):
 
 - Andrew J. Ko, Thomas D. LaToza, and Margaret M. Burnett. *[A practical guide to controlled experiments of software engineering tools with human participants.](https://dl.acm.org/doi/10.1007/s10664-013-9279-3)* In *Empirical Software Engineering*, volume 20, number 1, 2015 (pp. 110-141).
 - Patrick Rein and Robert Hirschfeld. *Pre-Study Report on a Controlled Experiment on the Moderation Effect of Task Complexity on the Effects of Exploratory-style Live Programming Tools.* Hasso Plattner Institute, 12 pages, not yet published.
+- Lassmann, P. [*Die Aufmerksamkeit des Fahrers (Driver Attention) – SAE L2.*](https://tangoversuch1.files.wordpress.com/2020/10/03_aufmerksamkeit_des_fahrers_l2_v03.pdf) Presentation at the Closing Event of the [TANGO project](https://projekt-tango-trucks.com/publikation/) (*Technologie für automatisiertes Fahren nutzergerecht optimiert*, *Technology for autonomous driving, optimized to user needs*). University Stuttgart, Germany, 2020-09-18.
+- [RVV] Luc Prestin: [Runtime Value Visualizations.](https://github.com/hpi-swa-teaching/live21-value-visualization) Prototype from the [Live Programming '21 Project Seminar](https://hpi.de/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ma/lehrveranstaltung/sose-21-3179-live-programming.html) of the Software Architecture Chair, Hasso Plattner Institute, 2021.
 - \<see [previous slides](https://github.com/LinqLover/sonyx/wiki/Material#project-slides-for-the-sonic-thinking-seminar)\>
 
 ## Preparation checklist
@@ -326,31 +375,30 @@ for each task (see [below](#tasks)):
 - [ ] Research (deferred)
   - [ ] find related work on interaction models for programming problem solving
 - [ ] Management
-  - [ ] decide on height of compensation
-  - [ ] write recruitment announcement
+  - [x] decide on height of compensation – € 30
+  - [x] write recruitment announcement
+  - [ ] revise/elaborate questions
   - [ ] create Google Forms questionnaire
 - [ ] Planning
   - [ ] create statistical hypotheses (deferred)
-  - [ ] define time limits for tasks – 30 min each *– TODO discuss*
-  - [ ] make total time estimation – 2:45 *– TODO discuss*
+  - [x] define time limits for tasks – 30 min each
+  - [x] make total time estimation – 2:45
 - [ ] Demo
   - [x] collect ideas for training exercise
   - [ ] create infographic/cheat sheet for Sonyx
   - [ ] create/find cheat sheet for regex
 - [ ] Image
-  - [ ] create simple theoretical example
-  - [ ] one project per task $\times$ condition
-  - [ ] for all tasks: add jamming `Transcript` sources
-  - [ ] for task 1: make all debugger steps equally slow
-  - [ ] for task 1: turn off senders/implementors and breakpoints
-  - [ ] for task 1: eliminate background processing in client
-  - [ ] for task 2: improve `SonyxDemoStream` API or replace it by a `SonyxDemoSequence`?
-  - [ ] for task 3: implement obfuscated iterative merge sort with assertions
-  - [ ] for task 3: create examples for `SonyxSound[Sequence]`
-  - [ ] create RVV visualization
-- [ ] Tool improvements
-  - [ ] improve sound API – simpler delay, shorter default duration
-  - [ ] sandblocks: remove messages end, add message send
+  - [x] create simple theoretical example
+  - [x] one project per task $\times$ condition
+  - [x] for all tasks: add jamming `Transcript` sources
+  - [x] for task 1: make all debugger steps equally slow
+  - [x] for task 1: turn off senders/implementors and breakpoints
+  - [x] for task 1: eliminate background processing in client
+  - [x] for task 2: improve `SonyxDemoStream` API or replace it by a `SonyxDemoSequence`
+  - [x] for task 3: implement obfuscated iterative merge sort with assertions
+  - [x] for task 3: create examples for `SonyxSound[Sequence]`
+  - [x] create RVV visualization
+- [ ] Re-check all to-dos above
 - [ ] Sessions (after recruitment is done)
   - [ ] assign numbers
   - [ ] plan timeslots
