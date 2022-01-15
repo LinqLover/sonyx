@@ -5,5 +5,5 @@ editProperty: aSymbol
 	answer := Project uiManager
 		request: ('Enter new value for {1}' format: {aSymbol})
 		initialAnswer: (self perform: aSymbol) asString.
-	answer ifNil: [^ self].
+	answer isEmptyOrNil ifTrue: [^ self].
 	self perform: aSymbol asSimpleSetter with: answer asNumber
