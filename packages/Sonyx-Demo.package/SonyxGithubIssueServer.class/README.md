@@ -1,1 +1,0 @@
-I demonstrate a small server object in Squeak that can be monitored with the help of sonyx. My implementation is deliberately inefficient so that the listener has something to listen for. :-)
