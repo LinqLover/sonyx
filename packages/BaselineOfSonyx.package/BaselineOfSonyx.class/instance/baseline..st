@@ -53,5 +53,5 @@ baseline: spec
 		spec
 			group: #app with: #('Sonyx-Core' 'Sonyx-UI' 'Sonyx-Demo');
 			group: #default with: #(#app #tests);
-			group: #study with: #('Sonyx-Study-Base' 'Sonyx-Study-RVV' 'Sonyx-Study-Tasks');
+			group: #study with: #('Sonyx-Study-Base' 'Sonyx-Study-RVV' 'Sonyx-StudyTasks');
 			group: #tests with: 'Sonyx-Tests']
