@@ -113,10 +113,14 @@ infoschleuder@hpi.de:
 ### 1. Study introduction [10 min]
 
 1. *The goals of this study are … (see [above](#research-questions)). We would like to ask you to perform some tasks in Squeak – with our prototype as well as with different tools for comparison –, monitor you while working with them, and ask you some questions in-between and afterwards. Please note that perhaps not all tasks are solvable. This will take about <var>3</var> hours. As a compensation, you will receive <var>30 €</var>.*
+
 2. Test against inclusion criteria
+
 3. Informed consent: *Would you like to participate in this study?*
-4. Initial question (questionnaire): *From your first impression, how promising would you deem the idea of using sounds in programming?* (<abbr title="4-point Likert scale">4PL</abbr>: very hopeless, rather hopeless, rather promising, very promising)
-   - *TODO: create google forms*
+
+4. Assign unique ID to participant, send it link to questionnaire, and ask the participant to enter the ID and answer the initial question:
+
+   *From your first impression, how promising would you deem the idea of using sounds in programming?* (<abbr title="4-point Likert scale">4PL</abbr>: very hopeless, rather hopeless, rather promising, very promising)
 
 ### 2. Prototype introductions and task processing [3x]
 
@@ -147,27 +151,27 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
   - different approaches tried/top-down vs bottom-up approach
   - final solution
 - retrospective task interview (questionnaire) [5 min]
-  1. confidence about solution: *How confident do you feel about the correctness [and quality] of your solution?* (4PL: very unsure, rather unsure, rather sure, very sure)
-  2. programming efficiency: *How efficient did your workflow while performing this task?* (4PL: not efficient at all, rather not efficient, rather efficient, very efficient)
+  1. confidence about solution: *How confident do you feel about the correctness [and quality] of your answers/solution?* (4PL: very unsure, rather unsure, rather sure, very sure)
+  2. programming efficiency: *How efficient did you consider your workflow while performing this task?* (4PL: not efficient at all, rather not efficient, rather efficient, very efficient)
   3. programming experience: *How much fun did you have performing the task while working with the provided tools?* (4PL: no fun at all, rather no fun, some fun, very much fun)
 - offer a short break
 
 ### 3. Open discussion (oral) [10 min]
 
 - open questions about the <u>approach</u>:
-  - strengths/for which kind of problems is it useful?
-  - weaknesses/for which kind of problems is it not so useful?
-  - of which other use cases for sonyx could you think?
-  - was there a recent problem where you would have liked to use it?
+  - strengths: *For which kind of problems do you think it is useful?*
+  - weaknesses: *For which kind of problems do you think it is rather not useful?*
+  - *Of which other use cases for sonyx could you think?*
+  - *Was there a recent programming problem where you would have liked to use it?*
 - open questions about the <u>prototype</u>:
-  - advantages: what makes the tool helpful/convenient?
-  - disadvantages: what are the largest drawbacks?
-  - improvement potential: how can the tool be made more convenient?
+  - advantages: *What made the tool helpful/convenient for you?*
+  - disadvantages: *What were the largest drawbacks of the tool for you?*
+  - improvement potential: *How could we make the tool more convenient for you to use?*
 
 ### 4. Debriefing interview [10 min]
 
 - questionnaire:
-  - *note: moved to the end of the study to avoid expectation bias*
+  - \<note: moved to the end of the study to avoid expectation bias\>
   - basic demographic data
     - age (k-anonymized into $3\mathbb{N}$)
     - gender (m/f/d/don‘t say)
@@ -176,9 +180,9 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
       - number of completed semesters in IT programs (k-anonymized into $3\mathbb{N}$)
   - prior programming experience
     - ~~inspiration: https://www.cs.cmu.edu/~ckaestne/pdf/icpc12.pdf~~
-    - *How many years of programming experience do you have?* ($\mathbb{N} \cup \{\frac{1}{2}\}$)
-    - *How many years of experience with object-oriented programming do you have?* ($\mathbb{N} \cup \{\frac{1}{2}\}$)
-    - *How many years of experience with Squeak/Smalltalk do you have?* ($\mathbb{N} \cup \{\frac{1}{2}\}$)
+    - *How many years of programming experience do you have?* ($[0, 1] \cup \mathbb{N}$)
+    - *How many years of experience with object-oriented programming do you have?* ($[0, 1] \cup \mathbb{N}$)
+    - *How many years of experience with Squeak/Smalltalk do you have?* ($[0, 1] \cup \mathbb{N}$)
     - *In which of the following programming languages would you feel proficient to start a professional project?* (multiple choice)
       - Python, Java/Kotlin, JavaScript/TypeScript, C#, C/C++, Swift, Go, Rust, Ruby, Haskell, Squeak/Smalltalk, one other, multiple others
   - sonic affinity
@@ -188,10 +192,10 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
     - *After meeting the sonyx prototype, how promising do you deem the idea of using sounds in programming?* (4PL: very hopeless, rather hopeless, rather promising, very promising)
     - *How convenient did you find the sonyx prototype?* (4PL: very inconvenient, rather inconvenient, rather convenient, very convenient)
     - *How convenient did you find each of the following aspects of the sonyx prototype?* (<var>n</var>x4PL: very inconvenient, rather inconvenient, rather convenient, very convenient)
-      - browser integration, sound configuration, sound watcher
+      - system browser integration, sound configuration, sound monitor
     - *How hard did you find it to get started with the sonyx prototype?* (4PL: very hard, rather hard, rather easy, very easy)
     - *How often would you use a fully developed tool for this approach in your favorite IDE (assuming you were a full-time programmer)?* (5PL: never, at least once per month, at least once per week, at least once per day, at least once per hour)
-  - *Do you have any other thoughts you want to share with us (free text field)?*
+  - *Do you have any other thoughts that you would like to share with us (free text field)?*
 - further questions by participants
   - wanna see a bonus? -> `SonyxDemoContext`
 
@@ -205,13 +209,13 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
   - how to trigger/toggle/remove sound probes
   - how to customize sounds
   - sound monitor
-- provide something like an infographic for reference
-  - *TODO: create infographic*
+  - use delays (`1 second wait`)
+- provide an infographic for reference
 - training exercise (`SonyxTaskDemoMorph`):
   - sonify every mouse movement/click over the morph
   - make the sound pitch dependent on the position of the event
   - run the sound in the background
-  - play one sound for each mouse button (`SonyxSoundSequence`)
+  - play one sound for each mouse button (`SonyxSoundSequence`, `#from:to:` & `#into:to:`)
 
 ### RVV prototype
 
@@ -220,11 +224,11 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
   - how to add watches
   - how to trigger/remove watches
   - how to customize watches (event LED, ratio LED, LED strip)
-- provide something like an infographic for reference
-  - *TODO: create infographic*
+  - use delays (`1 second wait`)
+- provide an infographic for reference
 - training (`SonyxTaskDemoMorph`):
   - visualize every mouse movement/click over the morph
-  - visualize every mouse button separately (LED strip)
+  - visualize every mouse button separately (LED strip, `#from:to:` & `#into:to:`)
 
 ### Control condition
 
@@ -242,7 +246,7 @@ No further introductions.
   - functionality: add, rename, lock/unlock, remove, edit content
 - challenges:
   - Transcript is hard to use because of other logging sources
-  - Senders/implementors and breakpoints are not available
+  - Senders/implementors and breakpoints are not available. Do not use halts!
 
 **Problem:**
 
@@ -298,7 +302,7 @@ No further introductions.
 **Task:**
 
 - *<u>Identify</u> one bottleneck in this regular expression and <u>resolve</u> it. <u>Explain</u> the bottleneck and your solution!*
-- if sonyx or rvv: *Use a given tool to sonify string accesses (`SonyxDemoString`).*
+- if sonyx or rvv: *Use a given tool to sonify string accesses (`aString as: SonyxTaskString`).*
 - provide regex cheat sheet
 
 **Expected result:**
@@ -334,7 +338,7 @@ No further introductions.
 **Task:**
 
 - *<u>Understand</u> how the sorting algorithm works. <u>Decide</u> whether the sorting is stable, i.e., equal values are not reordered.*
-- the method already contains an assertions
+- the method already contains an assertion
 - if sonyx: *Add sound probes to the method to listen to relevant parts of the collection.*
 - if rvv: *Add watcher to the method to visualize how the collection is sorted.* 
 - if no sonyx: *Read or debug the code to understand it.*
