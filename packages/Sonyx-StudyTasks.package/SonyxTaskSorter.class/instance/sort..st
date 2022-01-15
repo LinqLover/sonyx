@@ -2,7 +2,7 @@ sorting
 sort: anArray
 
 	| size l m r c f t mi a b k |
-	(size := anArray size) <= 1 ifTrue: [^ self].
+	(size := anArray size) <= 1 ifTrue: [^ anArray].
 	
 	l := 1.
 	r := anArray size.
