@@ -1,6 +1,6 @@
 accessing
 usableVisualizations
 
-	^ self dataValue size = 0
-		ifTrue: [self allVisualizations]
-		ifFalse: [self allVisualizations select: [:class | class canHandle: self dataValue first]]
+	^ (self data notEmpty and: [self dataValue notEmpty])
+		ifFalse: [self allVisualizations]
+		ifTrue: [self allVisualizations select: [:class | class canHandle: self dataValue first]]

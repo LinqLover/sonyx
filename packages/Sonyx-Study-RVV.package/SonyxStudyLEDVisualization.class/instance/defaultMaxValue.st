@@ -1,4 +1,4 @@
 initialization
 defaultMaxValue
 
-	^ 10
+	^ 1

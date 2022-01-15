@@ -3,7 +3,7 @@ editPinVisualizationClass
 
 	| answer |
 	answer := Project uiManager chooseFromLabeledValues: (self usableVisualizations
-		collect: [:class | class name -> class]
+		collect: [:class | class visualizationName -> class]
 		as: Dictionary).
 	answer ifNil: [^ self].
-	self visualizationClass: answer
+	self pinVisualizationClass: answer
