@@ -14,7 +14,7 @@ baseline: spec
 			baseline: 'RuntimeValueVisualization' with: [
 				spec
 					repository: 'github://LinqLover/live21-value-visualization:stream-sonyx/packages';
-					loads: #core];
+					loads: #default];
 			baseline: 'Sandblocks' with: [
 				spec
 					repository: 'github://LinqLover/sandblocks:stream-sonyx/packages';
@@ -41,7 +41,9 @@ baseline: spec
 					requires: #('Sonyx-UI');
 					postLoadDoIt: #postLoadStudyBase];
 			package: 'Sonyx-Study-RVV' with: [
-				spec requires: #('RuntimeValueVisualization')];
+				spec
+					requires: #('RuntimeValueVisualization');
+					postLoadDoIt: #postLoadStudyRVV];
 			package: 'Sonyx-StudyTasks' with: [
 				spec requires: #('Sonyx-UI' 'Sonyx-Study-RVV' 'JSON')];
 			package: 'Sonyx-Study-Solutions' with: [
