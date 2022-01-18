@@ -10,5 +10,5 @@
 	"name" : "SonyxSandblocksTheme",
 	"pools" : [
 		 ],
-	"super" : "SBLightPlusTheme",
+	"super" : "SBTextColorPolicy",
 	"type" : "normal" }
