@@ -7,7 +7,7 @@ newSandblocksEditor
 		width: 200;
 		
 		colorPolicy: SonyxSandblocksTheme new;
-		compileTime: #compileOnChange;
+		"compileTime: #compileOnChange;" flag: #todo; "keeps failing"
 		suggestAlways: true;
 		openMorphInView: (SonyxSandblocksContainer new
 			setFromSource: self defaultExpression;
