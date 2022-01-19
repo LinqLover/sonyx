@@ -4,6 +4,7 @@
 
 - **Overarching hypothesis:** When programmers receive additional sonic feedback about runtime state and behavior from their interactive programming environment, their effectiveness and programming experience increase.
   - **Concrete hypothesis:** When proficient Squeak/Smalltalk programmers use the *sonyx* prototype, they become more effective and satisfied while solving given programming tasks.
+    - Version used within the study: [`a4d41ef`](https://github.com/LinqLover/sonyx/tree/a4d41efcb183687e4c7dc40e8fb3e80db8730e0d)
   - **Rationale:**
     - By extending the interface of the programming environment with auditory displays, the maximum output bandwidth is increased and programmers are empowered to harness their auditory processing capacities, handle information streams from multiple sources simultaneously, monitor background processes, and gain alternative perspectives to the subjects of their problems.
     - General programming expertise is required to rule out that users struggle with fundamental programming concepts rather than focusing on effective task-solving. As the sonyx prototype is implemented in the Squeak/Smalltalk programming environment, programmers need to know this environment.
