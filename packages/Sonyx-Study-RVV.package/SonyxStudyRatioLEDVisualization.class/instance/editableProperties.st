@@ -1,4 +1,4 @@
 accessing
 editableProperties
 
-	^ super editableProperties, {#minValue}
+	SBToggledCode comment: '' active: 2 do: {[^ super editableProperties, {#minValue}]. [^ #()]}
