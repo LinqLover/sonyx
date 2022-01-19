@@ -3,6 +3,9 @@ openExample
 
 	"
 	self openExample
+	
+	TASK:
+	- IDENTIFY *two* reasons in these two classes why the issue browser is unnecesarily slow.
 	"
 	 
 	| server |

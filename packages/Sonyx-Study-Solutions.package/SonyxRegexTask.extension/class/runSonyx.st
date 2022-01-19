@@ -3,6 +3,10 @@ runSonyx
 
 	"
 	self runSonyx
+	
+	TASK:
+	- IDENTIFY *one* bottleneck in this regular expression and RESOLVE it.
+	- EXPLAIN the bottleneck and your solution.
 	"
 
 	| pattern string |
