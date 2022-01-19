@@ -121,6 +121,8 @@ infoschleuder@hpi.de:
 4. Assign unique ID to participant, send it link to questionnaire, and ask the participant to enter the ID and answer the initial question:
 
    *From your first impression, how promising would you deem the idea of using sounds in programming?* (<abbr title="4-point Likert scale">4PL</abbr>: very hopeless, rather hopeless, rather promising, very promising)
+   
+5. *Open the provided image and share your screen (including audio).*
 
 ### 2. Prototype introductions and task processing [3x]
 
@@ -130,7 +132,7 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
 
 - theoretical background
 - demo with theoretical example (`SonyxSimpleDemo`)
-- provide something like an infographic for reference
+- provide an infographic for reference
 - training:
   - let the participant try out the prototype in an unmonitored training exercise (`SonyxTaskDemoMorph`)
   - make sure they end with the correct solution
@@ -141,19 +143,28 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
 - short introduction into the task [5 min]
   - define problem and goal
   - describe the intended methodic starting point (i.e., *use Transcript logging* or *create sound probes for these variable*)
+  - *We ask you to use particular tools, please do not use different tools than instructed. Your image has been prepared to restrict your tool choice. Do not use breakpoints or halts.*
   - assure the task was understood
+  
 - hand control to participant [30 min]
   - turn camera off, keep screen share on
   - time-limited
   - *Say hello when you think you are done.*
+  
 - monitor during task solving
   - time until success/no success
   - different approaches tried/top-down vs bottom-up approach
   - final solution
+  
 - retrospective task interview (questionnaire) [5 min]
+
+  - *My purpose as a researcher is to learn as much as possible about the prototypes. This includes a better understand of problems, doubts or nuisances that you experience when working with the prototypes. So please try to be honest rather than polite.*
+
   1. confidence about solution: *How confident do you feel about the correctness [and quality] of your answers/solution?* (4PL: very unsure, rather unsure, rather sure, very sure)
-  2. programming efficiency: *How efficient did you consider your workflow while performing this task?* (4PL: not efficient at all, rather not efficient, rather efficient, very efficient)
+  2. programming efficiency: *How efficient did you consider your workflow with the provided tools while performing this task?* (4PL: not efficient at all, rather not efficient, rather efficient, very efficient)
   3. programming experience: *How much fun did you have performing the task while working with the provided tools?* (4PL: no fun at all, rather no fun, some fun, very much fun)
+  4. cognitive empathy: *How easy did you find it to comprehend the logic behind the program that you have analyzed?* (4PL: very hard, rather hard, rather easy, very easy)
+
 - offer a short break
 
 ### 3. Open discussion (oral) [10 min]
@@ -186,7 +197,7 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
     - *In which of the following programming languages would you feel proficient to start a professional project?* (multiple choice)
       - Python, Java/Kotlin, JavaScript/TypeScript, C#, C/C++, Swift, Go, Rust, Ruby, Haskell, Squeak/Smalltalk, one other, multiple others
   - sonic affinity
-    - *Would you consider yourself an auditory learner?* (<abbr title="5-point Likert scale">5PL</abbr>: definitely not, rather not, neutral, rather yes, definitely yes)
+    - auditory learning: *You are memorizing a sheet with lots of vocabulary. What learning techniques do you prefer (read them, listen to recordings of them, watch images of them)? Answer for your range for the listening technique!* (<abbr title="5-point Likert scale">5PL</abbr>: definitely not, rather not, neutral, rather yes, definitely yes)
     - *Would you consider yourself a musical person?* (5PL: definitely not, rather not, neutral, rather yes, definitely yes)
   - prototype and approach
     - *After meeting the sonyx prototype, how promising do you deem the idea of using sounds in programming?* (4PL: very hopeless, rather hopeless, rather promising, very promising)
@@ -241,20 +252,21 @@ No further introductions.
 **Context (`SonyxTaskIssueServer`):**
 
 - a server-client application for accessing GitHub issues
-- an interface that provides requests against the server component to the client component
-- a client component that accesses the interface and provides a UI
+- an interface that provides requests against the server component to the client component (`SonyxTaskIssueServer`)
+- a client component that accesses the interface and provides a UI (`SonyxTaskIssueBrowser`)
   - functionality: add, rename, lock/unlock, remove, edit content
 - challenges:
   - Transcript is hard to use because of other logging sources
   - Senders/implementors and breakpoints are not available. Do not use halts!
+- *Note: All stepping buttons in the debugger have been made equally slow so you cannot rely on the speed of a single step.*
 
 **Problem:**
 
-- The client component is very slow.
+- The client component is very slow (using the buttons, selecting an issue, or changing the contents of an issue).
 
 **Task:**
 
-- *<u>Identify</u> two reasons why the client component is so slow.*
+- *<u>Identify</u> two reasons in these two classes why the issue browser is unnecessarily slow.*
 
 - brainstorm: *How <u>would</u> you resolve these bottlenecks?*
 
@@ -324,7 +336,7 @@ No further introductions.
   - debug the regex engine (complex)
   - log string access positions (lots of data)
 
-### 3. Understanding a sorting algorithm (sonyx vs reading)
+### 3. Understanding a sorting function (sonyx vs reading)
 
 **Context (`SonyxTaskSorter`):**
 
@@ -337,7 +349,8 @@ No further introductions.
 
 **Task:**
 
-- *<u>Understand</u> how the sorting algorithm works. <u>Decide</u> whether the sorting is stable, i.e., equal values are not reordered.*
+- *<u>Understand</u> how the sorting function works, i.e., what the underlying algorithm is.*
+- brainstorm: *What properties can you derive from the choice of this algorithm?*
 - the method already contains an assertion
 - if sonyx: *Add sound probes to the method to listen to relevant parts of the collection.*
 - if rvv: *Add watcher to the method to visualize how the collection is sorted.* 
@@ -365,6 +378,7 @@ No further introductions.
   - guidance of participants (control)
   - not tested: creativity of finding approach for problem solving (control)
   - no adequate runtime visualization alternative
+  - interviewer/experimenter bias
 
 ## Literature
 
@@ -378,20 +392,20 @@ No further introductions.
 
 - [ ] Research (deferred)
   - [ ] find related work on interaction models for programming problem solving
-- [ ] Management
+- [x] Management
   - [x] decide on height of compensation – € 30
   - [x] write recruitment announcement
-  - [ ] revise/elaborate questions
-  - [ ] create Google Forms questionnaire
+  - [x] revise/elaborate questions
+  - [x] create Google Forms questionnaire
 - [ ] Planning
   - [ ] create statistical hypotheses (deferred)
   - [x] define time limits for tasks – 30 min each
   - [x] make total time estimation – 2:45
-- [ ] Demo
+- [x] Demo
   - [x] collect ideas for training exercise
-  - [ ] create infographic/cheat sheet for Sonyx
-  - [ ] create/find cheat sheet for regex
-- [ ] Image
+  - [x] create infographic/cheat sheet for Sonyx
+  - [x] create/find cheat sheet for regex
+- [x] Image
   - [x] create simple theoretical example
   - [x] one project per task $\times$ condition
   - [x] for all tasks: add jamming `Transcript` sources
@@ -404,6 +418,6 @@ No further introductions.
   - [x] create RVV visualization
 - [ ] Re-check all to-dos above
 - [ ] Sessions (after recruitment is done)
-  - [ ] assign numbers
+  - [x] assign numbers
   - [ ] plan timeslots
 
