@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxSandblocksEditor",
+	"pools" : [
+		 ],
+	"super" : "SBBrowserEditor",
+	"type" : "normal" }

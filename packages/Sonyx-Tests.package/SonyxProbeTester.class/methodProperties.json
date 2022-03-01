@@ -2,14 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptProbeText:" : "ct 8/19/2021 03:34",
+		"acceptProbeText:" : "ct 1/4/2022 18:02",
 		"annotationMorph" : "ct 8/19/2021 02:55",
 		"annotationMorphs" : "ct 8/19/2021 02:55",
 		"annotationSandblocksEditor" : "ct 8/19/2021 02:57",
 		"annotationTextMorph" : "ct 8/19/2021 02:57",
+		"browserTextMorph" : "ct 1/4/2022 14:39",
 		"disableProbe" : "ct 9/5/2021 01:48",
 		"enableProbe" : "ct 9/5/2021 01:48",
-		"installProbeFor:" : "ct 9/5/2021 16:15",
+		"installProbeFor:" : "ct 1/4/2022 18:01",
 		"methodClass" : "ct 8/19/2021 02:08",
 		"methodClass:" : "ct 8/19/2021 03:04",
 		"methodSelector" : "ct 8/19/2021 02:08",
@@ -18,4 +19,5 @@
 		"switchProbeToSandblocksEditor" : "ct 9/5/2021 01:54",
 		"switchProbeToTextEditor" : "ct 9/5/2021 01:54",
 		"type:into:" : "ct 8/18/2021 22:18",
-		"uninstallProbe" : "ct 8/19/2021 02:59" } }
+		"uninstallProbe" : "ct 8/19/2021 02:59",
+		"updateAnnotationMorphs" : "ct 1/4/2022 18:01" } }

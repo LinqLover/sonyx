@@ -5,6 +5,7 @@ sandblocksAccept
 	editor := self methodAnnotationSandblocksEditor.
 	
 	editor save.
+	self probeTester updateAnnotationMorphs.
 	self
 		deny: editor hasUnsavedChanges;
-		deny: self methodAnnotationMorph containingBrowser codeTextMorph hasUnacceptedEdits.
+		deny: self probeTester browserTextMorph hasUnacceptedEdits.

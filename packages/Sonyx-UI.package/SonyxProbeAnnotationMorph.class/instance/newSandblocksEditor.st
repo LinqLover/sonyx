@@ -1,7 +1,7 @@
 initialization
 newSandblocksEditor
-	 
-	^ SBBrowserEditor new
+
+	^ SonyxSandblocksEditor new
 		vResizing: #rigid;
 		height: 200;
 		width: 200;
