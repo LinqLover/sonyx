@@ -16,9 +16,7 @@ baseline: spec
 					repository: 'github://LinqLover/live21-value-visualization:stream-sonyx/packages';
 					loads: #default];
 			baseline: 'Sandblocks' with: [
-				spec
-					repository: 'github://LinqLover/sandblocks:stream-sonyx/packages';
-					loads: #default];
+				spec repository: 'github://LinqLover/sandblocks:stream-sonyx/packages'];
 			baseline: 'SimulationStudio' with: [
 				spec
 					repository: 'github://LinqLover/SimulationStudio:master/packages';
