@@ -13,9 +13,8 @@ sortRVV: anArray
 			f := i.
 			mi := i + m - 1.
 			t := i + (2 * m) - 1 min: r.
-			"self inform: (self copyFrom: f to: t)"
 			
-			SBWatch report: ((SBWatch report: anArray for: 986060103) copyFrom: f to: t) for: 616020660.
+			SBWatch report: (anArray copyFrom: f to: t) for: 616020660.
 			a := k := f.
 			b := mi + 1.
 			[a <= mi and: [b <= t]] whileTrue: [
@@ -29,7 +28,7 @@ sortRVV: anArray
 			anArray replaceFrom: f to: t with: c startingAt: f.
 			
 			self assert: (anArray copyFrom: f to: t) isSorted.
-			SBWatch report: ((SBWatch report: anArray for: 986060103) copyFrom: f to: t) for: 270765759.
+			SBWatch report: (anArray copyFrom: f to: t) for: 270765759.
 			0.5 seconds wait].
 		
 		m := m * 2].

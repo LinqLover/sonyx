@@ -1,4 +1,4 @@
-as yet unclassified
+support
 createRandomizedAssignments
 	<exampleNamed: 'some example 89' self: 'SonyxStudyCondition'>
 	| tasks associations ids |
