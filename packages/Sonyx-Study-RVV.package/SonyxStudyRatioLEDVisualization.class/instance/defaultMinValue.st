@@ -1,0 +1,4 @@
+initialization
+defaultMinValue
+
+	^ 0

@@ -1,0 +1,4 @@
+initialization
+defaultWindowSize
+
+	^ 10

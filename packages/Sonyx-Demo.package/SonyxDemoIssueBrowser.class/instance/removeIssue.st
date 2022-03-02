@@ -1,0 +1,4 @@
+actions
+removeIssue
+
+	self basicRemoveIssue.

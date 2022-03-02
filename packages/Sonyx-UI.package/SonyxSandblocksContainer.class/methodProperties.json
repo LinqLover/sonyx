@@ -4,8 +4,10 @@
 	"instance" : {
 		"annotationMorph" : "ct 7/12/2021 05:19",
 		"annotationMorph:" : "ct 7/12/2021 05:20",
+		"artefactChanged:" : "ct 1/18/2022 00:34",
 		"artefactCompletionSelectorsFor:class:" : "ct 9/5/2021 02:37",
 		"binding:for:class:ifPresent:" : "ct 1/6/2022 16:11",
+		"completeCascades:" : "ct 1/19/2022 14:14",
 		"methodClass" : "ct 7/12/2021 01:44",
 		"methodReference" : "ct 7/12/2021 01:44",
 		"methodReference:" : "ct 7/12/2021 01:44",

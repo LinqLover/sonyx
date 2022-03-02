@@ -1,0 +1,1 @@
+I am a simple morph that demonstrates different types of events that can be handled in the Morphic framework.

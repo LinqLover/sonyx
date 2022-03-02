@@ -1,0 +1,1 @@
+I am a special ByteString that provides a hook for exploring accesses to specific instances.

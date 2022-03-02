@@ -7,7 +7,7 @@ newSandblocksEditor
 		width: 200;
 		
 		colorPolicy: SonyxSandblocksTheme new;
-		"compileTime: #compileOnChange;" "currently disabled because pressing escape after changing a symbol to accept is not straightforward"
+		"compileTime: #compileOnChange;" flag: #todo; "keeps failing"
 		suggestAlways: true;
 		openMorphInView: (SonyxSandblocksContainer new
 			setFromSource: self defaultExpression;

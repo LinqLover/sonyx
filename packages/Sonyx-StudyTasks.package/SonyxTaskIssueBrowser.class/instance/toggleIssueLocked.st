@@ -1,0 +1,4 @@
+actions
+toggleIssueLocked
+
+	self basicToggleIssueLocked.

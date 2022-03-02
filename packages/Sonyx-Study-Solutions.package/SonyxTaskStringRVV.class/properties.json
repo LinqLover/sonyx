@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Study-Solutions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxTaskStringRVV",
+	"pools" : [
+		 ],
+	"super" : "ByteString",
+	"type" : "bytes" }

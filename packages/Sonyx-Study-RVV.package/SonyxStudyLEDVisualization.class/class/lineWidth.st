@@ -1,0 +1,4 @@
+defaults
+lineWidth
+
+	^ 1

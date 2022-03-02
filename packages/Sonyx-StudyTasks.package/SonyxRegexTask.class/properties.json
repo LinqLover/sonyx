@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-StudyTasks-Regex",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxRegexTask",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
