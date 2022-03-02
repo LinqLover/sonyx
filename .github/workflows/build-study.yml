@@ -14,5 +14,5 @@ jobs:
           prepare-script: ./scripts/prepareStudyImage.st
       - uses: actions/upload-artifact@master
         with:
-          name: image
+          name: study-image
           path: ${{ steps.create-image.outputs.bundle-path }}
