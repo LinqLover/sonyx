@@ -3,7 +3,7 @@ name: Build study image
 on: [push, workflow_dispatch]
 
 jobs:
-  create-image:
+  create-study-image:
     if: github.event.pull_request.draft != true  # #GreenIT
     runs-on: ubuntu-latest
     steps:
@@ -11,7 +11,7 @@ jobs:
       - uses: LinqLover/create-image@master
         id: create-image
         with:
-          prepare-script: ./scripts/prepareImage.st
+          prepare-script: ./scripts/prepareStudyImage.st
       - uses: actions/upload-artifact@master
         with:
           name: image
