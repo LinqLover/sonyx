@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-StudyTasks-Regex",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SonyxTaskString",
+	"pools" : [
+		 ],
+	"super" : "ByteString",
+	"type" : "bytes" }

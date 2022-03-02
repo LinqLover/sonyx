@@ -1,0 +1,4 @@
+support
+resetStudyTasks
+
+	TasksSnapshot install.

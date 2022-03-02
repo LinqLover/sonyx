@@ -1,0 +1,15 @@
+{
+	"category" : "Sonyx-Study-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current",
+		"TasksSnapshot" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"transcriptJam" ],
+	"name" : "SonyxStudyCondition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

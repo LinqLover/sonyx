@@ -1,0 +1,15 @@
+{
+	"category" : "Sonyx-StudyTasks-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 1/12/2022 21:40",
+	"instvars" : [
+		"server",
+		"selectedIssue" ],
+	"name" : "SonyxTaskIssueBrowser",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

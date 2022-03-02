@@ -1,0 +1,16 @@
+{
+	"category" : "Sonyx-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Token" ],
+	"commentStamp" : "ct 1/6/2022 01:24",
+	"instvars" : [
+		"owner",
+		"repository",
+		"token" ],
+	"name" : "SonyxDemoIssueServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

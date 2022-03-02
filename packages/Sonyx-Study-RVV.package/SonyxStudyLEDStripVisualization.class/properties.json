@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Study-RVV",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pinVisualizationClass" ],
+	"name" : "SonyxStudyLEDStripVisualization",
+	"pools" : [
+		 ],
+	"super" : "SonyxStudyVisualization",
+	"type" : "normal" }

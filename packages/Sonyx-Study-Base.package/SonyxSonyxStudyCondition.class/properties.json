@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Study-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SonyxSonyxStudyCondition",
+	"pools" : [
+		 ],
+	"super" : "SonyxStudyCondition",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Sonyx-StudyTasks-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Token" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"owner",
+		"repository",
+		"token" ],
+	"name" : "SonyxTaskIssueServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

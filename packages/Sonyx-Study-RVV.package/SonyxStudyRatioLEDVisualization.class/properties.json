@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-Study-RVV",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"minValue" ],
+	"name" : "SonyxStudyRatioLEDVisualization",
+	"pools" : [
+		 ],
+	"super" : "SonyxStudyLEDVisualization",
+	"type" : "normal" }

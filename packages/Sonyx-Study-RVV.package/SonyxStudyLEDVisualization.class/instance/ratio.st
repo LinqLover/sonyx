@@ -1,0 +1,4 @@
+accessing
+ratio
+
+	^ self subclassResponsibility

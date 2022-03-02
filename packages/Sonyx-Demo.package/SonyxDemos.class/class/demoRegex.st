@@ -1,6 +1,6 @@
 demos
 demoRegex
-	 
+
 	"
 	This example uses sound probes to monitor all accesses that are made to a string while matching it against a regular expression. Listen to the sonification of the following two regular expressions in order to understand their approach and to assess their efficiency.
 	
@@ -15,11 +15,11 @@ demoRegex
 	promise := self
 		informUser: ('Matching string\	<1p>\against regex\	<2s>' withCRs expandMacrosWith: string with: pattern1)
 		during: [
-			pattern1 asRegex matchesIn: (SonyxDemoStream on: string)].
+			pattern1 asRegex matchesIn: (string as: SonyxDemoString)].
 	promise := promise >> [2 seconds wait].
 	promise := promise >> [self
 		informUser: ('Matching string\	<1p>\against regex\	<2s>' withCRs expandMacrosWith: string with: pattern2)
-		during: [pattern2 asRegex matchesIn: (SonyxDemoStream on: string)]].
+		during: [pattern2 asRegex matchesIn: (string as: SonyxDemoString)]].
 	
 	promise ifRejected: [
-		BrokenPromise new promise: promise signal].
+		BrokenPromise new promise: promise; signal].
