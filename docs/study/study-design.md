@@ -1,4 +1,8 @@
-# Sonyx User Study
+# Sonyx User Study Design
+
+Overview: **Design** · [Evaluation](./study-evaluation.md)
+
+---
 
 ## Research questions
 
@@ -75,7 +79,15 @@
     - quantification: Likert/ordinal scale
 
 - **Statistical hypotheses:**
-  - *TODO*
+  - Programming experience/cognitive empathy:
+    - For each measure (tooling satisfaction, solution confidence, subjective efficiency, cognitive empathy):
+      - **Null hypothesis:** The expected value for the \<measure\> of programmers in the experimental condition does not significantly deviate from the expected value for programmers in the control conditions.
+      - **Alternative hypothesis:** The expected value for the \<measure\> of programmers in the experimental condition significantly deviates from the expected value for programmers in the control conditions.
+      - **Statistical test:** ANOVA to prove alternative hypothesis
+  - Sonic affinity:
+    - **Null hypothesis:** Within the experimental group, the expected values for the efficiency, comprehension, and experience (conflated into a single score) of programmers do not show any significant correlation to their sonic affinity.
+    - **Alternative hypothesis:** These expected values do show a significant correlation to the programmers‘ sonic affinity.
+    - **Statistical test:** Correlation analysis
 
 *Data collection: Every participant is assigned a unique ID. To fight the experimenter/interviewer bias, they are asked to turn off their screen while completing the questionnaires.*
 
@@ -124,7 +136,7 @@ infoschleuder@hpi.de:
 4. Assign unique ID to participant, send it link to questionnaire, and ask the participant to enter the ID and answer the initial question:
 
    *From your first impression, how promising would you deem the idea of using sounds in programming?* (<abbr title="4-point Likert scale">4PL</abbr>: very hopeless, rather hopeless, rather promising, very promising)
-   
+
 5. *Open the provided image and share your screen (including audio).*
 
 ### 2. Prototype introductions and task processing [3x]
@@ -148,17 +160,17 @@ for each [condition](#prototype-introductions)–[task](#tasks) association:
   - describe the intended methodic starting point (i.e., *use Transcript logging* or *create sound probes for these variable*)
   - *We ask you to use particular tools, please do not use different tools than instructed. Your image has been prepared to restrict your tool choice. Do not use breakpoints or halts.*
   - assure the task was understood
-  
+
 - hand control to participant [30 min]
   - turn camera off, keep screen share on
   - time-limited
   - *Say hello when you think you are done.*
-  
+
 - monitor during task solving
   - time until success/no success
   - different approaches tried/top-down vs bottom-up approach
   - final solution
-  
+
 - retrospective task interview (questionnaire) [5 min]
 
   - *My purpose as a researcher is to learn as much as possible about the prototypes. This includes a better understand of problems, doubts or nuisances that you experience when working with the prototypes. So please try to be honest rather than polite.*
@@ -381,7 +393,7 @@ No further introductions.
 - brainstorm: *What properties can you derive from the choice of this algorithm?*
 - the method already contains an assertion
 - if sonyx: *Add sound probes to the method to listen to relevant parts of the collection.*
-- if rvv: *Add watcher to the method to visualize how the collection is sorted.* 
+- if rvv: *Add watcher to the method to visualize how the collection is sorted.*
 - if no sonyx: *Read or debug the code to understand it.*
 
 **Expected result:**
