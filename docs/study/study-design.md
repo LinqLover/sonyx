@@ -78,7 +78,7 @@ Overview: **Design** · [Evaluation](./study-evaluation.md)
     - How easy was it for you to understand the system to analyze?
     - quantification: Likert/ordinal scale
 
-- **Statistical hypotheses:**
+- **Statistical hypotheses:** <a name="statistical-hypotheses"></a>
   - Programming experience/cognitive empathy:
     - For each measure (tooling satisfaction, solution confidence, subjective efficiency, cognitive empathy):
       - **Null hypothesis:** The expected value for the \<measure\> of programmers in the experimental condition does not significantly deviate from the expected value for programmers in the control conditions.

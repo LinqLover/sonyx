@@ -14,7 +14,7 @@ Distribution of measuring data (extract) per condition (rows), measures (columns
 
 All raw data are available to the authors and will be provided by request in a pseudonymized form.
 
-### Testing of statistical hypotheses
+### Testing of [statistical hypotheses](./study-design.md#statistical-hypotheses)
 
 All statistical tests have been performed using IBM SPSS.
 
