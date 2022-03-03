@@ -3,8 +3,10 @@
 ## Research questions
 
 - **Overarching hypothesis:** When programmers receive additional sonic feedback about runtime state and behavior from their interactive programming environment, their effectiveness and programming experience increase.
-  - **Concrete hypothesis:** When proficient Squeak/Smalltalk programmers use the *sonyx* prototype, they become more effective and satisfied while solving given programming tasks.
-    - Version used within the study: [`a4d41ef`](https://github.com/LinqLover/sonyx/tree/a4d41efcb183687e4c7dc40e8fb3e80db8730e0d)
+  - **Hypothesis 1:** Proficient Squeak/Smalltalk programmers solve programming tasks more effectively when using the *sonyx* prototype (compared to using the tooling of the base system only).
+  - **Hypothesis 2:** Proficient Squeak/Smalltalk programmers are more satisfied with their process when using the *sonyx* prototype to solve programming tasks (compared to using the tooling of the base system only).
+  - **Hypothesis 3:** Proficient Squeak/Smalltalk programmers succeed better in developing cognitive empathy with a software system that are trying to analyze within a programming tasks when using the *sonyx* prototype (compared to using the tooling of the base system only).
+  - Version used within the study: [`004397a`](https://github.com/LinqLover/sonyx/tree/004397a67c25ab8d8d793c61d6e9c94a68c976c4) with dependencies at the state of `2022-01-19 14:41` (`Squeak6.0 Alpha #20997`/`OSVM 202112201228`)
   - **Rationale:**
     - By extending the interface of the programming environment with auditory displays, the maximum output bandwidth is increased and programmers are empowered to harness their auditory processing capacities, handle information streams from multiple sources simultaneously, monitor background processes, and gain alternative perspectives to the subjects of their problems.
     - General programming expertise is required to rule out that users struggle with fundamental programming concepts rather than focusing on effective task-solving. As the sonyx prototype is implemented in the Squeak/Smalltalk programming environment, programmers need to know this environment.
@@ -60,7 +62,7 @@
   - Programming effectiveness:
     - success rate (grading scheme): To what extent did the participant achieve the expected, qualitative solution?
       - For each task, a time limit is specified.
-      - To avoid speculative expense and to mitigate the absence of a pre-pilot study, a horizon of expectation/grading scheme is not created in advance. Instead, the raw results of every participant are recorded and quantified after all results are available.
+      - To avoid speculative expense and to mitigate the absence of a pre-pilot study, a horizon of expectation/grading scheme is not created in advance. Instead, the raw results of every participant are recorded and quantified after all results are available. The post-hoc created grading schemes are listed below for each task.
       - quantification: ordinal scale
     - time to success (chronometer): How much time did the participant need to solve the task (success is detected by study manager)?
       - quantification: ratio scale
@@ -68,14 +70,14 @@
     - process and tooling satisfaction: How much did the participant enjoy performing the task/working with the toolset?
     - confidence about solution: How confident are the participants with their solution?
     - quantification: Likert/ordinal scales
-  - Solution approaches (observation and record-keeping):
-    - purposiveness/ramification of solution approaches: How many different approaches did the participant try out? Did they tend to select top-down or bottom-up approaches?
-    - qualitative
+  - Cognitive empathy with the system (questionnaire):
+    - How easy was it for you to understand the system to analyze?
+    - quantification: Likert/ordinal scale
 
 - **Statistical hypotheses:**
   - *TODO*
 
-*Data collection: Every participant is assigned a unique ID. To generate more honest answers, they are asked to turn off their screen while completing the questionnaires.*
+*Data collection: Every participant is assigned a unique ID. To fight the experimenter/interviewer bias, they are asked to turn off their screen while completing the questionnaires.*
 
 ## Recruitment announcement
 
@@ -301,6 +303,17 @@ No further introductions.
   - debug a UI operation and watch log output
   - read code for a UI operation (bottom-up)
 
+**Grading schemes:**
+
+- Success (each 2 points):
+  - redundant requests to `#issues` endpoint
+  - redundant `#issues` request after each selection
+  - solution approach: cache issues in client
+- Method:
+  - (+1) ask the right question: which requests are made to the server how often?
+  - (+1) technique: narrow down problem by debuggin/modifying behavior/runtime state
+  - (-1) search on wrong tracks (irrelevant packages)
+
 ### 2. Bottleneck in regular expression (sonyx vs simplification)
 
 **Context (`SonyxRegexTask`):**
@@ -337,6 +350,20 @@ No further introductions.
   - debug the regex engine (complex)
   - log string access positions (lots of data)
 
+**Grading scheme:**
+
+- Success (each 2 points):
+  - lookbehind expression is slow
+  - lookbehind expression uses backtracking
+  - solution approach: replace by simple capture group
+- Method:
+  - rvv binary strip
+  - exchange/remove loookaround
+  - exchange/remove/reorder other parts of regex
+  - replace lookaround by simple group
+  - debug into wrong parts
+  - vary input string
+
 ### 3. Understanding a sorting function (sonyx vs reading)
 
 **Context (`SonyxTaskSorter`):**
@@ -372,14 +399,15 @@ No further introductions.
   - reading/theoretical debugging
   - debugging
 
-## Threats to validity
+**Grading scheme (each 3 points):**
 
-- systematic
-  - predefined tasks (control)
-  - guidance of participants (control)
-  - not tested: creativity of finding approach for problem solving (control)
-  - no adequate runtime visualization alternative
-  - interviewer/experimenter bias
+- divide and conquer/top-down
+- merge sort
+- Method:
+  - analyze variable meanings
+  - analyze control flow/program slices
+  - watch array changes
+  - inputs: sorted, reverse-sorted, large
 
 ## Literature
 
@@ -391,15 +419,13 @@ No further introductions.
 
 ## Preparation checklist
 
-- [ ] Research (deferred)
-  - [ ] find related work on interaction models for programming problem solving
 - [x] Management
   - [x] decide on height of compensation – € 30
   - [x] write recruitment announcement
   - [x] revise/elaborate questions
   - [x] create Google Forms questionnaire
-- [ ] Planning
-  - [ ] create statistical hypotheses (deferred)
+- [x] Planning
+  - [x] create statistical hypotheses
   - [x] define time limits for tasks – 30 min each
   - [x] make total time estimation – 2:45
 - [x] Demo
@@ -417,8 +443,7 @@ No further introductions.
   - [x] for task 3: implement obfuscated iterative merge sort with assertions
   - [x] for task 3: create examples for `SonyxSound[Sequence]`
   - [x] create RVV visualization
-- [ ] Re-check all to-dos above
-- [ ] Sessions (after recruitment is done)
+- [x] Sessions (after recruitment is done)
   - [x] assign numbers
-  - [ ] plan timeslots
+  - [x] plan timeslots
 
