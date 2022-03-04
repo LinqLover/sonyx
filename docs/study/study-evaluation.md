@@ -76,7 +76,13 @@ In the experiment, more than 75% of all tasks were not solved in a significantly
 >
 > **Alternative hypothesis:** These expected values do show a significant correlation to the programmers‘ sonic affinity.
 
-The statistical analysis suggests a positive correlation between the sonic affinity of participants and their efficiency/comprehension/experience scores for tasks solved within the experimental group. The hypothesis is confirmed.
+The statistical analysis suggests a positive correlation between the sonic affinity of participants and their efficiency/comprehension/experience scores for tasks solved within the experimental group. Amongst other, three positive correlations were found:
+
+1. between the affinity of participants to auditory learning techniques and their programming score (significant)
+2. between the musical affinity of participants and their final impression of the potential of auditory displays in programming (significant)
+3. between the musical affinity of participants and their programming score (moderate, almost significant)
+
+The hypothesis is confirmed.
 
 ![Sonic affinity correlation test results](./study-evaluation.assets/sonic-correlations.png)
 
