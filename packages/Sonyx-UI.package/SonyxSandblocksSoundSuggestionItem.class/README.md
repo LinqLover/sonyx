@@ -1,0 +1,1 @@
+I am a Sandblocks suggestion item for squeakSounds that are identified as earcons or auditory icons. The user can prehear every squeakSound by pressing shift while hovering any suggestion.

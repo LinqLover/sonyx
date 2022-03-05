@@ -1,0 +1,1 @@
+I implement an iterative-inline variant of the merge sort algorithm that can be sonified with sonyx.

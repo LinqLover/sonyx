@@ -1,0 +1,14 @@
+{
+	"category" : "Sonyx-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 3/5/2022 19:10",
+	"instvars" : [
+		"squeakSound" ],
+	"name" : "SonyxSandblocksSoundSuggestionItem",
+	"pools" : [
+		 ],
+	"super" : "SBSuggestionItem",
+	"type" : "normal" }

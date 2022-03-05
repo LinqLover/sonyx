@@ -1,0 +1,1 @@
+I am a sonyx study LED that visualizes the value of the last activation of the containing watch.

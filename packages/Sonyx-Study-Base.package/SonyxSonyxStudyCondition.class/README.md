@@ -1,0 +1,1 @@
+I represent the experimental study condition where participants use the sonyx prototype.
