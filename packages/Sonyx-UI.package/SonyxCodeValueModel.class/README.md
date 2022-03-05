@@ -1,1 +1,1 @@
-I am an improvement of BPStringValueModel that also enabled syntax highlighting and Autocompletion.
+I am an improvement of BPStringValueModel that also enables syntax highlighting and Autocompletion.

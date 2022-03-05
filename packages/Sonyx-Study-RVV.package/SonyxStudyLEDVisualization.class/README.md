@@ -1,0 +1,1 @@
+I am the abstract superclass of sonyx RVV visualizations that display a single LED.

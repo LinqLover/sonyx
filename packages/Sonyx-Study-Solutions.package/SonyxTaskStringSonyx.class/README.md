@@ -1,1 +1,1 @@
-I am a special ByteString that provides a hook for exploring accesses to specific instances.
+This is a model solution for the regex task of the sonyx study within in the experimental condition.

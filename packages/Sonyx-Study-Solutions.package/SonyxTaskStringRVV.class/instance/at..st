@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 at: anInteger
 
 	0.2 seconds wait.

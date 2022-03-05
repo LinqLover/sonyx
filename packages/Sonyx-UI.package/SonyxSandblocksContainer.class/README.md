@@ -1,1 +1,1 @@
-I am a Sandblocks container that can be embedded into a SonyxProbeAnnotationMorph.
+I am a Sandblocks container that can be embedded into a SonyxSandblocksEditor.

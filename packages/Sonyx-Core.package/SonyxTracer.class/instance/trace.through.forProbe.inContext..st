@@ -11,6 +11,7 @@ trace: aBlock through: expressionProbe forProbe: probeId inContext: aContext
 	expressionProbe ifNotNil: [
 		[self server play: (expressionProbe cull: result) for: probe]
 			on: Error, Warning, Halt do: [:ex |
+				"Automatically turn off a failing probe to avoid error propagation"
 				probe enabled: false.
 				ex tag: probe.
 				ex pass]].

@@ -1,0 +1,3 @@
+I provide the framework for running the sonyx study. As a superclass, I represent an abstract study condition. Besides, my class side offers utilities for switching between different study conditions, cheat sheets for every prototype, and scripts to schedule assignments and reset the common task source code between the tasks. When a study condition is enabled, certain features of the base system can also be disabled (such as senders/implementors) or obfuscated (such as the Transcript).
+
+For more information about the study, please read the documents in the repository: https://github.com/LinqLover/sonyx/tree/master/docs/study

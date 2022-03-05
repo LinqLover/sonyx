@@ -1,0 +1,1 @@
+I am a sonyx study LED that flashes and then smolders out for every hit of the containing watch. Multiple hits of the watch can increase the brightness of the LED.

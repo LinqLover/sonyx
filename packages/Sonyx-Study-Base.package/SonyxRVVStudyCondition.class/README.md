@@ -1,0 +1,1 @@
+I represent the RVV control condition where participants use the Sandblocks editor with RVV LED watches. See: SonyxStudyVisualization.
