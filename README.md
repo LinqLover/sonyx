@@ -5,15 +5,15 @@
 [![Release](https://github.com/LinqLover/sonyx/actions/workflows/release.yml/badge.svg)](https://github.com/LinqLover/sonyx/actions/workflows/release.yml)
 
 **sonyx** (***S***ound-based t***O***ols for u***N***derstanding of software s***Y***stems through e***X***ploration) is a toolkit for exploring software systems through sonification in [Squeak/Smaltalk](https://squeak.org).
-It has initially been developed within the course ["Sonic Thinking - Methods of Working with Sound"](https://hpi.de/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ma/lehrveranstaltung/sose-21-3286-sonic-thinking-seminar-_-methods-of-working-with-sound.html) offered by Julia von Thienen from the [neurodesign group @ HPI](https://hpi.de/neurodesign/home.html).
+It has initially been developed within the course ["Sonic Thinking - Methods of Working with Sound"](https://hpi.de/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ma/lehrveranstaltung/sose-21-3286-sonic-thinking-seminar-_-methods-of-working-with-sound.html) and has been evaluated and extended within the course ["Neurodesign Lecture - Designing for Empathy in Business Contexts"](https://hpi.de/studium/im-studium/lehrveranstaltungen/digital-health-ma/lehrveranstaltung/wise-21-22-3319-neurodesign-lecture-_-designing-for-empathy-in-business-contexts.html) offered by Julia von Thienen from the [neurodesign group @ HPI](https://hpi.de/neurodesign/home.html).
 For more information, please refer to [theoretical background](#theoretical-background-literature--acknowledgments).
 
-The main idea of sonyx is to empower developers to understand (large-scale) software systems by listening to particular interesting aspects of them.
+The main idea of sonyx is to empower developers to understand software systems by listening to particular interesting aspects in the source code.
 To do this, developers can create *sound probes* on-the-fly for any expression in any method in the system.
 Whenever this expression is reached during the system execution, a user-defined sound is played.
 Developers can customize and combine these sounds or even configure them to dynamically reflect the state or result of the expression.
 
-This project is based on [Babylonian Programming/Smalltalk](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/) and [Sandblocks](https://github.com/tom95/sandblocks).
+This project is based on [Babylonian Programming/Smalltalk](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/) and [Sandblocks](https://github.com/hpi-swa/sandblocks).
 
 ## Impressions
 
@@ -34,7 +34,7 @@ This project is based on [Babylonian Programming/Smalltalk](https://github.com/h
 ## Download and installation
 
 A ready-to-use Squeak image is available in the [latest release](https://github.com/LinqLover/sonyx/releases).
-Extract the zip file and execute the `squeak.bat` file on Windows or the `squeak.sh` for Linux/macOS.
+Extract the zip file and execute the `squeak.bat` file on Windows, the `squeak.sh` on Linux, or run the app bundle on macOS.
 
 If you wish, you can also set up sonyx yourself:
 
@@ -136,15 +136,36 @@ The package structure of this project is organized as follows:
 			<td><a href="packages/Sonyx-UI.package/">Sonyx-UI</a></td>
 			<td>View logic for the facilities implemented in the Core package. Includes sound annotations, a sound monitor, and integrates Sandblocks into the probe annotations.</td>
 		</tr>
+		<tr>
+			<td><a href="packages/Sonyx-Study-Base.package/">Sonyx-Study-Base</a></td>
+			<td>Framework for running the <a href="#user-study">user study</a>.</td>
+		</tr>
+		<tr>
+			<td><a href="packages/Sonyx-Study-RVV.package/">Sonyx-Study-RVV</a></td>
+			<td>LED visualizations for a visual control condition in the study, based on <a href="https://github.com/hpi-swa-teaching/live21-value-visualization">Runtime Value Visualizations</a>.</td>
+		</tr>
+		<tr>
+			<td><a href="packages/Sonyx-Study-Solutions.package/">Sonyx-Study-Solutions</a></td>
+			<td>Model solutions to the programming tasks for the user study.</td>
+		</tr>
+		<tr>
+			<td><a href="packages/Sonyx-StudyTasks.package/">Sonyx-StudyTasks</a></td>
+			<td>Materials for the programming tasks for the user study.</td>
+		</tr>
 	</tbody>
 </table>
+
+## User Study
+
+We have conducted a controlled experiment with 6 partipants to quantitatively evaluate the use of auditory display in exploratory programming.
+All details on the design and the outcomes of the study are described [here](./docs/study).
 
 ## Theoretical background, literature & acknowledgments
 
 There is so much more to tell about this project!
 For all the other details, including important related work and underlying goals of sonyx, please refer to the [wiki](https://github.com/LinqLover/sonyx/wiki/Material#project-slides-for-the-sonic-thinking-seminar).
 There are also [acknowledgments](./ACKNOWLEDGMENTS.md) to many kind people.
-Special thanks go to Tom Beckmann ([@tom95](https://github.com/tom95/)) and Patrick Rein ([@codeZeilen](https://github.com/codeZeilen)) for their unremitting support and close cooperation to get sonyx integrated into Babylonian and Sandblocks!
+Special thanks go to Julia von Thienen for the statistical evaluation of the user study as well as Tom Beckmann ([@tom95](https://github.com/tom95)) and Patrick Rein ([@codeZeilen](https://github.com/codeZeilen)) for their unremitting support and close cooperation to get sonyx integrated into Babylonian and Sandblocks!
 
 Please also refer to [UPSTREAM.md](./UPSTREAM.md) for a list of further implementational work that has been done in the context of this project.
 
