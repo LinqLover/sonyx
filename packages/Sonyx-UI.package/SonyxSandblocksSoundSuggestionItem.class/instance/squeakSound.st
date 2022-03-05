@@ -1,0 +1,4 @@
+accessing
+squeakSound
+
+	^ squeakSound

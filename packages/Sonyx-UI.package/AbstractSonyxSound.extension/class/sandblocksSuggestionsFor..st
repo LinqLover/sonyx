@@ -1,4 +1,4 @@
-Sandblocks-suggestions
+*Sonyx-UI-Sandblocks-suggestions
 sandblocksSuggestionsFor: aSandblock
 	 
 	^ Array streamContents: [:stream | | class |
