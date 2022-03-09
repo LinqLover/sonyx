@@ -24,7 +24,7 @@ All statistical tests have been performed using IBM SPSS.
 >
 > **Alternative hypothesis:** The expected value for the \<measure\> of programmers in the experimental condition significantly deviates from the expected value for programmers in the control conditions.
 
-Falsified via ANOVA test, thus the alternative hypothesis is confirmed.
+The ANOVA outcomes indicate group differences with regard to efficiency and comprehension of the participants:
 
 ![ANOVA test results](./study-evaluation.assets/anova.png)
 
@@ -50,7 +50,7 @@ Falsified via ANOVA test, thus the alternative hypothesis is confirmed.
 
 - cognitive empathy:
 
-  - The choice of the condition (experimental vs. null) influences the empathy score with $p_2 = 5.8\%$ and the effect size ($\Delta \approx +1.00$) is very large (according to Cohen‘s $d$; point estimate: $-0.998$). As the influence is almost statistically significant and the effect size is clear, we consider the hypothesis as proven.
+  - The choice of the condition (experimental vs. null) influences the empathy score with $p_2 = 5.8\%$ and the effect size ($\Delta \approx +1.00$) is very large (according to Cohen‘s $d$; point estimate: $-0.998$). As the influence is almost statistically significant and the effect size is clear, the hypothesis is upheld.
 
     <details>
         <summary>Analysis</summary>
@@ -82,7 +82,7 @@ The statistical analysis suggests a positive correlation between the sonic affin
 2. between the musical affinity of participants and their final impression of the potential of auditory displays in programming (significant)
 3. between the musical affinity of participants and their programming score (moderate, almost significant)
 
-The hypothesis is confirmed.
+These observations are in agreement with the alternative hypothesis.
 
 ![Sonic affinity correlation test results](./study-evaluation.assets/sonic-correlations.png)
 

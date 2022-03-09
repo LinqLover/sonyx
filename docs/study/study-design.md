@@ -83,7 +83,7 @@ Overview: **Design** · [Evaluation](./study-evaluation.md)
     - For each measure (tooling satisfaction, solution confidence, subjective efficiency, cognitive empathy):
       - **Null hypothesis:** The expected value for the \<measure\> of programmers in the experimental condition does not significantly deviate from the expected value for programmers in the control conditions.
       - **Alternative hypothesis:** The expected value for the \<measure\> of programmers in the experimental condition significantly deviates from the expected value for programmers in the control conditions.
-      - **Statistical test:** ANOVA to prove alternative hypothesis
+      - **Statistical test:** ANOVA
   - Sonic affinity:
     - **Null hypothesis:** Within the experimental group, the expected values for the efficiency, comprehension, and experience (conflated into a single score) of programmers do not show any significant correlation to their sonic affinity.
     - **Alternative hypothesis:** These expected values do show a significant correlation to the programmers‘ sonic affinity.
