@@ -9,7 +9,7 @@ It has initially been developed within the course ["Sonic Thinking - Methods of 
 For more information, please refer to [theoretical background](#theoretical-background-literature--acknowledgments).
 
 The main idea of sonyx is to empower developers to understand software systems by listening to particular interesting aspects in the source code.
-To do this, developers can create *sound probes* on-the-fly for any expression in any method in the system.
+To do this, developers can create *sound probes* on the fly for any expression in any method in the system.
 Whenever this expression is reached during the system execution, a user-defined sound is played.
 Developers can customize and combine these sounds or even configure them to dynamically reflect the state or result of the expression.
 
