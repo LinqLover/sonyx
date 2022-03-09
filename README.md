@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/LinqLover/sonyx/badge.svg?branch=prototyping)](https://coveralls.io/github/LinqLover/sonyx?branch=prototyping)
 [![Release](https://github.com/LinqLover/sonyx/actions/workflows/release.yml/badge.svg)](https://github.com/LinqLover/sonyx/actions/workflows/release.yml)
 
-**sonyx** (***S***ound-based t***O***ols for u***N***derstanding of software s***Y***stems through e***X***ploration) is a toolkit for exploring software systems through sonification in [Squeak/Smaltalk](https://squeak.org).
+**sonyx** (***S***ound-based t***O***ols for u***N***derstanding of software s***Y***stems through e***X***ploration) is a toolkit for exploring software systems through sonification in [Squeak/Smalltalk](https://squeak.org).
 It has initially been developed within the course ["Sonic Thinking - Methods of Working with Sound"](https://hpi.de/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ma/lehrveranstaltung/sose-21-3286-sonic-thinking-seminar-_-methods-of-working-with-sound.html) and has been evaluated and extended within the course ["Neurodesign Lecture - Designing for Empathy in Business Contexts"](https://hpi.de/studium/im-studium/lehrveranstaltungen/digital-health-ma/lehrveranstaltung/wise-21-22-3319-neurodesign-lecture-_-designing-for-empathy-in-business-contexts.html) offered by Julia von Thienen from the [neurodesign group @ HPI](https://hpi.de/neurodesign/home.html).
 For more information, please refer to [theoretical background](#theoretical-background-literature--acknowledgments).
 
