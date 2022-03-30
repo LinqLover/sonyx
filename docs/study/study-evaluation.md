@@ -28,9 +28,7 @@ The ANOVA outcomes indicate group differences with regard to efficiency and comp
 
 ![ANOVA test results](./study-evaluation.assets/anova.png)
 
-- tooling satisfaction/„fun“:
-
-  - A marginal shift in the fun scores can be seen for participants in the exp. cond. as opposed to the null condition, but it is not strong in effect size ($\Delta \approx +0.66$) nor in probability ($p_1 = 11.8\%$).
+- **Tooling satisfaction/„fun“.** A marginal shift in the fun scores can be seen for participants in the exp. cond. as opposed to the null condition, but it is not strong in effect size ($\Delta \approx +0.66$) nor in probability ($p_1 = 11.8\%$).
 
     <details>
         <summary>Analysis</summary>
@@ -40,17 +38,11 @@ The ANOVA outcomes indicate group differences with regard to efficiency and comp
         <img src="./study-evaluation.assets/fun-sizes.png"></img>
     </details>
 
-- solution confidence:
+- **Solution confidence.** A marginal shift in the confidence scores can be seen for participants in the exp. cond. as opposed to the null condition. However, results from the statistical evaluation are not yet available for this measure.
 
-  - tbd
+- **Subjective efficiency.** The distribution of efficiency scores partitioned by the exp. cond. vs null cond. does not follow a clear pattern. No significant influence of the tooling on the subjective efficiency could be shown.
 
-- subjective efficiency:
-
-  - The distribution of efficiency scores partitioned by the exp. cond. vs null cond. does not follow a clear pattern. No significant influence of the tooling on the subjective efficiency could be shown.
-
-- cognitive empathy:
-
-  - The choice of the condition (experimental vs. null) influences the empathy score with $p_2 = 5.8\%$ and the effect size ($\Delta \approx +1.00$) is very large (according to Cohen‘s $d$; point estimate: $-0.998$). As the influence is almost statistically significant and the effect size is clear, the hypothesis is upheld.
+- **Cognitive empathy.** The choice of the condition (experimental vs. null) influences the empathy score with $p_2 = 5.8\%$ and the effect size ($\Delta \approx +1.00$) is very large (according to Cohen‘s $d$; point estimate: $-0.998$). As the influence is almost statistically significant and the effect size is clear, the hypothesis is upheld.
 
     <details>
         <summary>Analysis</summary>
