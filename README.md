@@ -179,4 +179,4 @@ Some known technical limitations to date are:
 - Limited mouse controls of probe expressions. While intended to be completely configurable as GUI, nested sounds and additional parameters still require keyboard control at the moment.
 - No compatibility with vanilla Babylonian - inserting examples in a method will play unexpected sounds.
 
-Please, do not hesitate to create an issue if you have further ideas or troubles!
+Please do not hesitate to create an issue if you have further ideas or troubles!
