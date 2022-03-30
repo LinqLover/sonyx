@@ -2,7 +2,9 @@ requests
 addIssueWithTitle: titleString body: bodyString
 
 	| result |
-	result := self
+	result := "<bpSonyxAnnotation id: 3099977 expression: [SonyxSound new
+		squeakSound: #camera;
+		yourself]>"self"</bpSonyxAnnotation>"
 		clientDo: [:client | | args |
 			args := JsonObject new
 				at: #title put: titleString;

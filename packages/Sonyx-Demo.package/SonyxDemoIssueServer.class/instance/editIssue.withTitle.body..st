@@ -2,7 +2,9 @@ requests
 editIssue: number withTitle: titleString body: bodyString
 
 	| result |
-	result := self
+	result := "<bpSonyxAnnotation id: 959882 expression: [SonyxSound new
+		squeakSound: #barkTwice;
+		yourself]>"self"</bpSonyxAnnotation>"
 		clientDo: [:client | | args |
 			args := JsonObject new
 				at: #title put: titleString;

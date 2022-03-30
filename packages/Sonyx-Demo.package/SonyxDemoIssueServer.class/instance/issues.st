@@ -2,7 +2,9 @@ requests
 issues
 
 	| results |
-	results := self
+	results := "<bpSonyxAnnotation id: 5792578 expression: [SonyxSound new
+		squeakSound: #brownHead;
+		yourself]>"self"</bpSonyxAnnotation>"
 		clientDo: [:client |
 			client httpGet: self baseUrl, '/issues' do: [:request |
 				request contentType: self acceptedContentType.
