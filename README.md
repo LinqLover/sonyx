@@ -167,6 +167,8 @@ For all the other details, including important related work and underlying goals
 There are also [acknowledgments](./ACKNOWLEDGMENTS.md) to many kind people.
 Special thanks go to Julia von Thienen for the statistical evaluation of the user study as well as Tom Beckmann ([@tom95](https://github.com/tom95)) and Patrick Rein ([@codeZeilen](https://github.com/codeZeilen)) for their unremitting support and close cooperation to get sonyx integrated into Babylonian and Sandblocks!
 
+Talk Slides: [Auditory Displays in Programming.]( https://linqlover.github.io/LinqLover/slides/ACUD%20Sonyx.pdf) On [*Making Things Audible*](https://acudmachtneu.de/events/1827/making-things-audible/), March 5–6, 2022. ACUD MACHT NEU, Berlin, Germany.
+
 Please also refer to [UPSTREAM.md](./UPSTREAM.md) for a list of further implementational work that has been done in the context of this project.
 
 ## Outlook & known limitations
